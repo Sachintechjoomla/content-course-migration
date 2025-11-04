@@ -1,0 +1,165 @@
+{
+    "request": {
+        "question": {
+            "instructions": null,
+            "subject": [
+                "Electrical"
+            ],
+            "subDomain": [
+                "Career Exploration"
+            ],
+            "channel": "pos-channel",
+            "downloadUrl": "https://knowlg-public.s3-ap-south-1.amazonaws.com/question/do_2143719676628582401476/latest-new-question_1758798363975_do_2143719676628582401476_5.ecar",
+            "responseDeclaration": {
+                "response1": {
+                    "cardinality": "single",
+                    "type": "integer",
+                    "correctResponse": {
+                        "value": 3
+                    },
+                    "mapping": [
+                        {
+                            "value": 3,
+                            "score": 2
+                        }
+                    ]
+                }
+            },
+            "language": [
+                "English"
+            ],
+            "showHints": false,
+            "variants": {
+                "full": {
+                    "ecarUrl": "https://knowlg-public.s3-ap-south-1.amazonaws.com/question/do_2143719676628582401476/latest-new-question_1758798363975_do_2143719676628582401476_5.ecar",
+                    "size": "126291"
+                },
+                "online": {
+                    "ecarUrl": "https://knowlg-public.s3-ap-south-1.amazonaws.com/question/do_2143719676628582401476/latest-new-question_1758798364382_do_2143719676628582401476_5_ONLINE.ecar",
+                    "size": "1887"
+                }
+            },
+            "body": "<div class='question-body' tabindex='-1'><div class='mcq-title' tabindex='0'><p>मोटर विद्युत ऊर्जा को किस ऊर्जा में बदलती है Updated ?</p></div><div data-choice-interaction='response1' class='mcq-vertical'></div></div>",
+            "editorState": {
+                "options": [
+                    {
+                        "answer": true,
+                        "value": {
+                            "body": "<p>Hello</p>",
+                            "value": 0
+                        }
+                    },
+                    {
+                        "answer": false,
+                        "value": {
+                            "body": "<p>यांत्रिक ऊर्जा Updated</p>",
+                            "value": 1
+                        }
+                    },
+                    {
+                        "answer": true,
+                        "value": {
+                            "body": "<p>पवन ऊर्जा</p>",
+                            "value": 2
+                        }
+                    },
+                    {
+                        "answer": false,
+                        "value": {
+                            "body": "<p>चुंबकीय ऊर्जा</p>",
+                            "value": 3
+                        }
+                    }
+                ],
+                "question": "<p>मोटर विद्युत ऊर्जा को किस ऊर्जा में बदलती है Updated?</p>"
+            },
+            "templateId": "mcq-vertical",
+            "objectType": "Question",
+            "feedback": null,
+            "primaryCategory": "Multiple Choice Question",
+            "contentEncoding": "gzip",
+            "showSolutions": false,
+            "showTimer": false,
+            "solutions": {},
+            "hints": null,
+            "outcomeDeclaration": "{\"maxScore\":{\"cardinality\":\"single\",\"type\":\"integer\",\"defaultValue\":2}}",
+            "qType": "MCQ",
+            "maxScore": 2,
+            "languageCode": [
+                "en"
+            ],
+            "se_subjects": [
+                "Electrical"
+            ],
+            "license": "CC BY 4.0",
+            "interactionTypes": [
+                "choice"
+            ],
+            "domain": "Learning for Work",
+            "name": "Latest New Question ",
+            "media": [
+                {
+                    "id": "do_2143719675606302721252",
+                    "type": "image",
+                    "src": "https://qa-knowlg-inquiry.s3-ap-south-1.amazonaws.com/content/assets/do_2143719675606302721252/file.png"
+                },
+                {
+                    "id": "do_2143719675706490881253",
+                    "type": "image",
+                    "src": "https://qa-knowlg-inquiry.s3-ap-south-1.amazonaws.com/content/assets/do_2143719675706490881253/file.jpg"
+                },
+                {
+                    "id": "do_2143719676005416961254",
+                    "type": "image",
+                    "src": "https://qa-knowlg-inquiry.s3-ap-south-1.amazonaws.com/content/assets/do_2143719676005416961254/file.png"
+                },
+                {
+                    "id": "do_2143719676279029761255",
+                    "type": "image",
+                    "src": "https://qa-knowlg-inquiry.s3-ap-south-1.amazonaws.com/content/assets/do_2143719676279029761255/file.png"
+                },
+                {
+                    "id": "do_2143719676555182081256",
+                    "type": "image",
+                    "src": "https://qa-knowlg-inquiry.s3-ap-south-1.amazonaws.com/content/assets/do_2143719676555182081256/file.png"
+                }
+            ],
+            "createdOn": "2025-08-05T10:43:03.850+0000",
+            "interactions": {
+                "response1": {
+                    "type": "choice",
+                    "options": [
+                        {
+                            "label": "<p>Hello </p>",
+                            "value": 0
+                        },
+                        {
+                            "label": "<p>https://drive.google.com/file/d/1fv0pHdmYMg_iLK487uzOC6kRR43aS484/view?usp=sharing <figure class=\"image\"><img src=\"https://qa-knowlg-inquiry.s3-ap-south-1.amazonaws.com/content/assets/do_2143719675706490881253/file.jpg\" alt=\"https://qa-knowlg-inquiry.s3-ap-south-1.amazonaws.com/content/assets/do_2143719675706490881253/file\" data-asset-variable=\"do_2143719675706490881253\"></figure></p>",
+                            "value": 1
+                        },
+                        {
+                            "label": "<p>https://drive.google.com/file/d/1O7DOul0dEP40kVsTsfmG5qNOMF-qQi-8/view?usp=sharing <figure class=\"image\"><img src=\"https://qa-knowlg-inquiry.s3-ap-south-1.amazonaws.com/content/assets/do_2143719676005416961254/file.png\" alt=\"https://qa-knowlg-inquiry.s3-ap-south-1.amazonaws.com/content/assets/do_2143719676005416961254/file\" data-asset-variable=\"do_2143719676005416961254\"></figure></p>",
+                            "value": 2
+                        },
+                        {
+                            "label": "<p>https://drive.google.com/file/d/13BXXgwhGh_FbhAs74Eg4__uravQvPXNf/view?usp=sharing <figure class=\"image\"><img src=\"https://qa-knowlg-inquiry.s3-ap-south-1.amazonaws.com/content/assets/do_2143719676279029761255/file.png\" alt=\"https://qa-knowlg-inquiry.s3-ap-south-1.amazonaws.com/content/assets/do_2143719676279029761255/file\" data-asset-variable=\"do_2143719676279029761255\"></figure></p>",
+                            "value": 3
+                        }
+                    ]
+                }
+            },
+            "contentDisposition": "inline",
+            "lastUpdatedOn": "2025-09-25T11:06:04.635+0000",
+            "allowAnonymousAccess": "Yes",
+            "se_FWIds": [
+                "pos-framework"
+            ],
+            "pkgVersion": 5,
+            "versionKey": "1758798336884",
+            "showFeedback": false,
+            "framework": "pos-framework",
+            "answer": "<div class='answer-container'><div class='answer-body'><p>चुंबकीय ऊर्जा</p></div></div>",
+            "compatibilityLevel": 5
+        }
+    }
+}

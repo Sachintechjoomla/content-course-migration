@@ -1,0 +1,84 @@
+{
+    "sets": [
+        {
+            "name": "रेषा",
+            "do_id": null,
+            "thumb": "https://posupload.blob.core.windows.net/devpos/CourseContent/images/Marathi&Urdu_202503200718450018.jpg",
+            "content": [
+                "do_21439612650852352011440"
+            ],
+            "children": [],
+            "description": "वेगवेगळ्या गोष्टी, छान छान गोष्टी"
+        },
+        {
+            "name": "मांजरीची गंमत",
+            "do_id": null,
+            "thumb": "https://posupload.blob.core.windows.net/devpos/CourseContent/images/Marathi_202503070645223329.jpg",
+            "content": [
+                "do_21439612653323059211422"
+            ],
+            "children": [],
+            "description": "वेगवेगळ्या गोष्टी, छान छान गोष्टी"
+        },
+        {
+            "name": "छोटीशी बकरी",
+            "do_id": null,
+            "thumb": "https://posupload.blob.core.windows.net/devpos/CourseContent/images/Week_35_202504101021221484.png",
+            "content": [
+                "do_21439612656087040011410"
+            ],
+            "children": [],
+            "description": "वेगवेगळ्या गोष्टी, छान छान गोष्टी"
+        },
+        {
+            "name": "बेडकाच्या शोधात मुंगूस",
+            "do_id": null,
+            "thumb": "https://posupload.blob.core.windows.net/devpos/CourseContent/images/Marathi_202503281018380945.jpg",
+            "content": [
+                "do_21439612658561843211427"
+            ],
+            "children": [],
+            "description": "वेगवेगळ्या गोष्टी, छान छान गोष्टी"
+        },
+        {
+            "name": "पानाची भटकंती",
+            "do_id": null,
+            "thumb": "https://posupload.blob.core.windows.net/devpos/CourseContent/images/Week_36_202504170924359004.png",
+            "content": [
+                "do_21439612661594521611442"
+            ],
+            "children": [],
+            "description": "वेगवेगळ्या गोष्टी, छान छान गोष्टी"
+        },
+        {
+            "name": "आबा",
+            "do_id": null,
+            "thumb": "https://posupload.blob.core.windows.net/devpos/CourseContent/images/Marathi_202502280957098920.jpg",
+            "content": [
+                "do_21439612663791616011424"
+            ],
+            "children": [],
+            "description": "वेगवेगळ्या गोष्टी, छान छान गोष्टी"
+        },
+        {
+            "name": "कान",
+            "do_id": null,
+            "thumb": "https://posupload.blob.core.windows.net/devpos/CourseContent/images/Urdu,Marathi_202503131121410881.jpg",
+            "content": [
+                "do_21439612665765068811412"
+            ],
+            "children": [],
+            "description": "वेगवेगळ्या गोष्टी, छान छान गोष्टी"
+        },
+        {
+            "name": "प्राण्यांची घरं",
+            "do_id": null,
+            "thumb": "https://posupload.blob.core.windows.net/devpos/CourseContent/images/Week_37_202504240826358430.png",
+            "content": [
+                "do_21439612668040806411429"
+            ],
+            "children": [],
+            "description": "वेगवेगळ्या गोष्टी, छान छान गोष्टी"
+        }
+    ]
+}

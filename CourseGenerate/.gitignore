@@ -1,0 +1,61 @@
+# Node dependencies
+node_modules/
+
+# Build outputs
+dist/
+coverage/
+.nyc_output/
+
+# Environment files (all variants)
+.env
+.env.*
+*.env
+*.env.*
+env
+env.*
+env.local
+env.*.local
+
+env-*
+.env-*
+envDetails*
+envdetails*
+
+# Logs and debug
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor/OS artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Credentials/keys (extra safety)
+.aws/
+.ssh/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+id_rsa
+id_dsa
+id_ecdsa
+.npmrc
+.yarnrc
+.yarnrc.yml
+.envrc
+

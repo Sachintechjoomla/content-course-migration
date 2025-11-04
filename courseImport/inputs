@@ -1,0 +1,1958 @@
+This is our generated request
+{
+  request: {
+    data: {
+      nodesModified: {
+        do_2144015867536670721268: {
+          root: true,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "d1d75899-add8-4940-b2ea-17f09cfa84c1",
+            name: "Hindi",
+            visibility: "Default",
+            contentType: "Course",
+            primaryCategory: "Course",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/collection/do_2144015867536670721268/artifact/hindi_202106181147026417.thumb.png",
+            attributions: [],
+            description: "Hindi",
+                    },
+          isNew: false,
+                },
+        do_2144015867700592641303: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "ce404790-0a7c-47e5-98e7-8765b4162bc9",
+            name: "मॉड्यूल 2",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/assets/do_2144015867618426881275/intro_202106241619296800.png",
+            attributions: [],
+            description: "मॉड्यूल 2",
+                    },
+          isNew: false,
+                },
+        do_2144015867700019201293: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "9acc1799-620f-4704-b468-c3e3581b63be",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p4_202106241401064373.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 4: टीकाकरण लेने के बाद दुष्प्रभाव और देखभाल",
+                    },
+          isNew: false,
+                },
+        do_2144015677422796801191: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "fbb7de4d-431a-4dde-b182-5412c20a1509",
+            name: "कोविड-19 वैक्सीन के दुष्प्रभाव",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015677422796801191/artifact/do_2144015677329162241190_1758003873763_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Side effects of COVID-19 Vaccines",
+                    },
+          isNew: false,
+                },
+        do_2144015677521674241192: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "361ab761-9fc9-4413-8028-e661323fc741",
+            name: "टीकाकरण के बाद ज़िम्मेदारियाँ",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: " Safety after Vaccination",
+                    },
+          isNew: false,
+                },
+        do_2144015867699200001281: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "d7abffb6-0a11-468b-8d92-0b0db7a9fc0f",
+            name: "http://img.youtube.com/vi/RKtU0-QZK3A/mqdefault.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 5: प्रोजेक्ट 2 - टीकाकरण पंजीकरण",
+                    },
+          isNew: false,
+                },
+        do_2144015677713530881194: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "80dd8240-84b3-44fd-9be0-0500e091aff7",
+            name: "पोस्ट 5: प्रोजेक्ट 2 - टीकाकरण पंजीकरण",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015677713530881194/artifact/do_2144015677667655681193_1758003877855_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Post 5: Project 2 – Vaccination Registration",
+                    },
+          isNew: false,
+                },
+        do_2144015867701084161313: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "896f9e4a-15a0-4ee8-9d16-15a6e4cc9c26",
+            name: "http://img.youtube.com/vi/f9bUl-agkUU/mqdefault.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 1: भारत में कोविड के टीके",
+                    },
+          isNew: false,
+                },
+        do_2144015677903503361196: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "977306a0-f1a8-4a42-afc2-5c2383028e62",
+            name: "पोस्ट 1: भारत में कोविड के टीके",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015677903503361196/artifact/do_2144015677855334401195_1758003880137_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "COVID -19 vaccines in India",
+                    },
+          isNew: false,
+                },
+        do_2144015867701411841319: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "c354ce56-cb9a-491a-971b-eadfb12b22a6",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Intro_202106241628506453.png",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 11: अक्सर पूछे जाने वाले प्रश्न",
+                    },
+          isNew: false,
+                },
+        do_2144015678044979201198: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/pdf",
+            code: "559d59b6-8d85-4c60-b6a4-4939a2b7dfcf",
+            name: "Myths - COVID-19 FAQs",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015678044979201198/artifact/do_2144015677983784961197_1758003881855_pdficon_202106241627559241.thumb.png",
+            attributions: [],
+            description: "Myths - COVID-19 FAQs",
+                    },
+          isNew: false,
+                },
+        do_2144015678268375041200: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/pdf",
+            code: "f7f0af14-b8e5-4376-a57a-f4ce7c136dda",
+            name: "Vaccination - COVID-19 FAQs",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015678268375041200/artifact/do_2144015678217748481199_1758003884666_pdficon_202106241628078031.thumb.png",
+            attributions: [],
+            description: "Vaccination - COVID-19 FAQ",
+                    },
+          isNew: false,
+                },
+        do_2144015867699445761285: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "fd6d508b-ee39-4ce4-ac8f-55aa52f7ab44",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p9_202106241401547068.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 9: covid से ठीक होने के बाद देखभाल",
+                    },
+          isNew: false,
+                },
+        do_2144015678539448321202: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "e0d9f375-5937-4d80-a43c-80621f821616",
+            name: "2",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015678539448321202/artifact/do_2144015678496686081201_1758003887967_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Post 9: Care after recovery from covid",
+                    },
+          isNew: false,
+                },
+        do_2144015678733762561204: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "ec4703a1-c689-495c-a02f-9dee1545f2b1",
+            name: "1",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015678733762561204/artifact/do_2144015678690836481203_1758003890338_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Post 9: Care after recovery from covid",
+                    },
+          isNew: false,
+                },
+        do_2144015867700838401309: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "e898131c-b980-440e-b084-b5f53c44dd76",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Tikakaran_Imp_202106241126121526.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 2: टीकाकरण का महत्व",
+                    },
+          isNew: false,
+                },
+        do_2144015678934056961206: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "b2823364-88e0-4be6-a239-b8a93f03463b",
+            name: "वैक्सीन कोरोनावायरस से लड़ने में हमारी मदद कैसे कर सकता है?",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015678934056961206/artifact/do_2144015678892933121205_1758003892799_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Importance of Vaccine",
+                    },
+          isNew: false,
+                },
+        do_2144015679133122561208: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "5ec86ce9-274d-40e3-b358-de0ed42d4add",
+            name: "COVID-19 के टीके कैसे काम करते हैं?",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015679133122561208/artifact/do_2144015679088640001207_1758003895263_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "COVID-19 Vaccines, How will they work?",
+                    },
+          isNew: false,
+                },
+        do_2144015867700101121295: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "810977c8-e651-4342-b4d4-aa6a846b1ec0",
+            name: "http://img.youtube.com/vi/IB3Ic40rOI8/mqdefault.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 6: टीकाकरण मिथक बस्टर",
+                    },
+          isNew: false,
+                },
+        do_2144015679349473281210: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "1ffdd71a-6395-402e-bb0f-caa43fd14a17",
+            name: "पोस्ट 6: टीकाकरण मिथक बस्टर",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015679349473281210/artifact/do_2144015679303270401209_1758003897821_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Post 6: Vaccination Myth Buster",
+                    },
+          isNew: false,
+                },
+        do_2144015867699281921283: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "2b536e0c-8f64-41ef-9117-dabe5b75b0c3",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post7_1_202106241328572795.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 7: कोविड के दौरान देखभाल - 1",
+                    },
+          isNew: false,
+                },
+        do_2144015684215029761214: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "a407618b-4551-4f66-9a7c-afb7f74ffc6b",
+            name: "3",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015684215029761214/artifact/do_2144015684174561281213_1758003957310_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Post 7: Care during Covid - 1",
+                    },
+          isNew: false,
+                },
+        do_2144015684446863361216: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "001588bf-104c-4887-aef9-8cf4b24722f6",
+            name: "2",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015684446863361216/artifact/do_2144015684401643521215_1758003960076_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Post 7: Care during Covid - 1",
+                    },
+          isNew: false,
+                },
+        do_2144015684636180481218: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "0832c17e-68dc-4580-b7f3-3457679e710b",
+            name: "1",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015684636180481218/artifact/do_2144015684592353281217_1758003962403_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Post 7: Care during Covid - 1",
+                    },
+          isNew: false,
+                },
+        do_2144015867701657601321: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "d4741e54-fefc-4c06-ad42-8150d1506934",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p10_202106241332283378.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 10: ब्लैक फंगस",
+                    },
+          isNew: false,
+                },
+        do_2144015687285964801220: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "d2ed2881-5e94-48d2-8751-adc08581eca9",
+            name: "1",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015687285964801220/artifact/do_2144015687241236481219_1758003994732_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Post 10: Black Fungus",
+                    },
+          isNew: false,
+                },
+        do_2144015687443087361222: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "a35872b5-3094-417d-a8b8-e3c06de64506",
+            name: "2",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015687443087361222/artifact/do_2144015687403274241221_1758003996695_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Post 10: Black Fungus",
+                    },
+          isNew: false,
+                },
+        do_2144015867699691521287: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "b0041166-cfa9-4db1-9ad7-891887ee8616",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p8_202106241331386642.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 8: कोविड के दौरान देखभाल - 2",
+                    },
+          isNew: false,
+                },
+        do_2144015687636090881224: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "7e60d857-2c4e-4ceb-af41-4f340e61694e",
+            name: "1",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015687636090881224/artifact/do_2144015687595868161223_1758003999074_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Post 8: Care During Covid - 2",
+                    },
+          isNew: false,
+                },
+        do_2144015687796408321226: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "cffc781e-f93c-45f3-9d09-95d22a195366",
+            name: "2",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015687796408321226/artifact/do_2144015687755612161225_1758004000984_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Post 8: Care During Covid - 2",
+                    },
+          isNew: false,
+                },
+        do_2144015867700428801301: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "fc5189f3-ce9e-4972-bfc6-4ebb9b1dccd7",
+            name: "मॉड्यूल 1",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/assets/do_2144015867649884161276/module1caws_202106241619136953.png",
+            attributions: [],
+            description: "मॉड्यूल 1",
+                    },
+          isNew: false,
+                },
+        do_2144015867699773441289: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "ff17c9af-4472-43d7-9588-effbb52e2830",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Poll_Question_Module_1_Post_3_202106231826332559.png",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 3: मतदान प्रश्न",
+                    },
+          isNew: false,
+                },
+        do_2144015687950336001228: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/pdf",
+            code: "4d443ac0-c54b-441f-b7fd-f88081df7991",
+            name: "पोस्ट 3: मतदान प्रश्न",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015687950336001228/artifact/do_2144015687891271681227_1758004002764_poll_question_module_1_post_3_202106231826332559.thumb.png",
+            attributions: [],
+            description: "post3matadanqua",
+                    },
+          isNew: false,
+                },
+        do_2144015867701248001317: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "52f02abf-4036-4c8d-a98e-04631963abaa",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Poll_Question_Module_1_Post_8_202106231830308710.png",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 8: मतदान प्रश्न",
+                    },
+          isNew: false,
+                },
+        do_2144015688150630401230: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/pdf",
+            code: "7e9202b0-ecdb-4d07-8fca-5ee04686d209",
+            name: "पोस्ट 8: मतदान प्रश्न",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015688150630401230/artifact/do_2144015688095744001229_1758004005256_poll_question_module_1_post_8_202106231830308710.thumb.png",
+            attributions: [],
+            description: "post8matadanqa",
+                    },
+          isNew: false,
+                },
+        do_2144015867701166081315: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "67bdbc88-207d-4060-8bfc-4cbdbfb0c430",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post10_202106221452503709.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 10: परीक्षण 2 - कोविड -19 परीक्षणों के बारे में अधिक जानें",
+                    },
+          isNew: false,
+                },
+        do_2144015688468889601232: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "71cc6dc5-aa82-4c47-b1d6-c8585f594291",
+            name: "Corona के लिए कब और कौन सा टेस्ट करवाना चाहिए?",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015688468889601232/artifact/do_2144015688429486081231_1758004009232_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "All about Covid-19 Testing",
+                    },
+          isNew: false,
+                },
+        do_2144015688706129921234: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "9ecdcbff-eeb2-4dfb-990f-cb0f68be2a08",
+            name: "आरटी-पीसीआर और रैपिड एंटीजन टेस्ट के बीच क्या अंतर है?",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015688706129921234/artifact/do_2144015688666808321233_1758004012153_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Covid19Test",
+                    },
+          isNew: false,
+                },
+        do_2144015867700264961297: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "4ce64c10-0e1a-4ffe-91f1-31b6110c7e6a",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Poll_Question_Module_1_Post_9__202106241025564348.png",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 9: मतदान प्रश्न",
+                    },
+          isNew: false,
+                },
+        do_2144015688838512641236: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/pdf",
+            code: "32111b25-3e43-4a62-a490-5ada69768a93",
+            name: "पोस्ट 9: मतदान प्रश्न",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015688838512641236/artifact/do_2144015688775761921235_1758004013645_poll_question_module_1_post_9__202106241025564348.thumb.png",
+            attributions: [],
+            description: "post9matdan",
+                    },
+          isNew: false,
+                },
+        do_2144015867701002241311: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "f7132af1-1885-415c-b327-b2f17fc88116",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post4_202106221308051956.png",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 4: घर के बाहर बरती जाने वाली सावधानियां - 1",
+                    },
+          isNew: false,
+                },
+        do_2144015689091481601238: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "cd9cb386-7154-4237-a3c1-c097547788a3",
+            name: "घर पर मास्क कैसे सिलें",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015689091481601238/artifact/do_2144015689049866241237_1758004016860_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "How to make Mask at Home l With Needle and Thread",
+                    },
+          isNew: false,
+                },
+        do_2144015689302589441240: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "2f2607da-bb65-4b0a-b94c-08d4eed0c18d",
+            name: "बिना सिलाई के मास्क कैसे बनाएं:",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015689302589441240/artifact/do_2144015689269248001239_1758004019464_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "How to make Mask at Home",
+                    },
+          isNew: false,
+                },
+        do_2144015689379758081241: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "c145b7cb-75bb-432f-98c3-37b5500f4b53",
+            name: "डबल मास्क कैसे पहनें",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "Proper Masking",
+                    },
+          isNew: false,
+                },
+        do_2144015867699855361291: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "a8bd1618-0b18-41e4-8c2f-54a959de1b1b",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Intro_202106221546398791.png",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 1 - स्वागत है",
+                    },
+          isNew: false,
+                },
+        do_2144015689491660801243: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/pdf",
+            code: "f7d741b1-d200-45bf-b861-ce773840d464",
+            name: "पोस्ट 1 - स्वागत है",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015689491660801243/artifact/do_2144015689453240321242_1758004021731_intro_202106221546398791.thumb.png",
+            attributions: [],
+            description: "post1-welcome",
+                    },
+          isNew: false,
+                },
+        do_2144015867700674561305: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "1b590603-abb5-404d-a347-bede80e3406a",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Intro_202106221547114465.png",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 12: कोविड पर अक्सर पूछे जाने वाले प्रश्न",
+                    },
+          isNew: false,
+                },
+        do_2144015692165611521245: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/pdf",
+            code: "fe1bfc1c-7d26-458a-949f-580044e711a5",
+            name: "Introduction and Prevention - COVID-19 FAQs",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015692165611521245/artifact/do_2144015692120965121244_1758004054311_pdficon_202107011639213695.thumb.png",
+            attributions: [],
+            description: "Introduction and Prevention - COVID-19 FAQs",
+                    },
+          isNew: false,
+                },
+        do_2144015692323143681247: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/pdf",
+            code: "6ac2b141-dfa7-4821-8912-1a53d68182d9",
+            name: "COVID Testing - COVID-19 FAQs",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015692323143681247/artifact/do_2144015692284395521246_1758004056284_pdficon_202107011639346194.thumb.png",
+            attributions: [],
+            description: "COVID Testing - COVID-19 FAQs",
+                    },
+          isNew: false,
+                },
+        do_2144015867700756481307: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "f1d087a1-de29-4683-87bb-ccf7d8d40dfc",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post6_202106221452147407.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 6: घर लौटने के बाद की सावधानियां",
+                    },
+          isNew: false,
+                },
+        do_2144015692585123841249: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "33b83972-8a6f-4475-b3d6-ffe5e11553e3",
+            name: "घर लौटने के बाद इन चरणों का पालन करें",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015692585123841249/artifact/do_2144015692548014081248_1758004059503_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "How to fight coronavirus after returning home?",
+                    },
+          isNew: false,
+                },
+        do_2144015692771164161251: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "37953c3d-288e-4a49-af5c-a662c53554f5",
+            name: "हाथ धोने का सही तरीका",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015692771164161251/artifact/do_2144015692730613761250_1758004061724_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Hand Hygiene | How to Wash your Hands Properly",
+                    },
+          isNew: false,
+                },
+        do_2144015692825313281252: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "34e45076-0462-4edb-926e-feaadb75dcb5",
+            name: "सब्जियों और फलों का उपयोग कैसे करें",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "How to use vegetables and fruits ",
+                    },
+          isNew: false,
+                },
+        do_2144015867700346881299: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "c7d33c11-542f-4658-877c-4811f5d3fb30",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post2_202106221310079349.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 2: कोविड -19 - दूसरी लहर: लक्षण और सच्चाई (पढ़ें)",
+                    },
+          isNew: false,
+                },
+        do_2144015695497134081254: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "d34f93d9-9e0a-4572-a97b-3888f0c1cc85",
+            name: "Covid19 के नए लक्षण जिन्हें आपको नज़रअंदाज़ नहीं करना चाहिए",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015695497134081254/artifact/do_2144015695457730561253_1758004095025_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Symptoms-Covid-19 (Second-wave)",
+                    },
+          isNew: false,
+                },
+        do_2144015695669657601256: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "fe819d9d-237c-42fc-af6d-4d4770f79d99",
+            name: "5 - कोरोना-वायरस के लक्षण",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015695669657601256/artifact/do_2144015695630909441255_1758004097124_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Coronavirus Myths",
+                    },
+          isNew: false,
+                },
+        do_2144015695837020161258: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "c3c81d40-782a-4b20-be06-c3bc19f780f3",
+            name: "Covid-19 के नए और पुराने लक्षण क्या हैं?",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015695837020161258/artifact/do_2144015695802040321257_1758004099206_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Latest list of symptoms of Covid-19?",
+                    },
+          isNew: false,
+                },
+        do_2144015867698954241277: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "810d8be3-274c-4a49-a7a5-e2805305e6a7",
+            name: "http://img.youtube.com/vi/N7TZ7HhsviU/mqdefault.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 5: घर के बाहर बरती जाने वाली सावधानियां - 2",
+                    },
+          isNew: false,
+                },
+        do_2144015696028139521260: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "233e4362-1524-41f1-b45c-0c8a045484c5",
+            name: "पोस्ट 5: घर के बाहर बरती जाने वाली सावधानियां - 2",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015696028139521260/artifact/do_2144015695987998721259_1758004101484_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "फिज़िकल डिस्टेन्सिंग का पालन",
+                    },
+          isNew: false,
+                },
+        do_2144015867699118081279: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "application/vnd.ekstep.content-collection",
+            code: "8c5df3c4-87fd-446d-8b01-a5780692fa77",
+            name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post7_202106221452322615.jpg",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "",
+            attributions: [],
+            description: "पोस्ट 7: परीक्षण 1 - घर पर अपने स्वास्थ्य की निगरानी करें",
+                    },
+          isNew: false,
+                },
+        do_2144015696228433921262: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "fc379adc-83f2-424e-a59a-018a27dabdf1",
+            name: "कोरोना+ मरीज घर पर Isolate रहें या Hospital में भर्ती हों?",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015696228433921262/artifact/do_2144015696187228161261_1758004103925_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Isolate-Hospital-home",
+                    },
+          isNew: false,
+                },
+        do_2144015696419143681264: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "9ec8dff5-118a-4afe-a32c-e0e155e7f9fd",
+            name: "घर पर तापमान की जांच कैसे करें?",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015696419143681264/artifact/do_2144015696381952001263_1758004106295_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "How to Check Temperature at Home?",
+                    },
+          isNew: false,
+                },
+        do_2144015696613457921266: {
+          root: false,
+          objectType: "Content",
+          metadata: {
+            mimeType: "video/x-youtube",
+            code: "45ca9131-ece2-4644-baca-be40e2ae3c96",
+            name: "पल्स-ऑक्सीमीटर का घर पर सही तरीके से कैसे उपयोग करें?",
+            visibility: "Parent",
+            contentType: "CourseUnit",
+            primaryCategory: "Course Unit",
+            appIcon: "https://knowlg-public.s3-ap-south-1.amazonaws.com/content/do_2144015696613457921266/artifact/do_2144015696567418881265_1758004108597_mqdefault.thumb.jpg",
+            attributions: [],
+            description: "Pulse Oximeter Correct Use At Home",
+                    },
+          isNew: false,
+                },
+            },
+      hierarchy: {
+        do_2144015867536670721268: {
+          name: "Hindi",
+          children: [
+                        "do_2144015867700592641303",
+                        "do_2144015867700428801301",
+                    ],
+          root: true,
+                },
+        do_2144015867700592641303: {
+          name: "मॉड्यूल 2",
+          children: [
+                        "do_2144015867700019201293",
+                        "do_2144015867699200001281",
+                        "do_2144015867701084161313",
+                        "do_2144015867701411841319",
+                        "do_2144015867699445761285",
+                        "do_2144015867700838401309",
+                        "do_2144015867700101121295",
+                        "do_2144015867699281921283",
+                        "do_2144015867701657601321",
+                        "do_2144015867699691521287",
+                    ],
+          root: false,
+                },
+        do_2144015867700019201293: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p4_202106241401064373.jpg",
+          children: [
+                        "do_2144015677422796801191",
+                        "do_2144015677521674241192",
+                    ],
+          root: false,
+                },
+        do_2144015677422796801191: {
+          name: "कोविड-19 वैक्सीन के दुष्प्रभाव",
+          children: [],
+          root: false,
+                },
+        do_2144015677521674241192: {
+          name: "टीकाकरण के बाद ज़िम्मेदारियाँ",
+          children: [],
+          root: false,
+                },
+        do_2144015867699200001281: {
+          name: "http://img.youtube.com/vi/RKtU0-QZK3A/mqdefault.jpg",
+          children: [
+                        "do_2144015677713530881194",
+                    ],
+          root: false,
+                },
+        do_2144015677713530881194: {
+          name: "पोस्ट 5: प्रोजेक्ट 2 - टीकाकरण पंजीकरण",
+          children: [],
+          root: false,
+                },
+        do_2144015867701084161313: {
+          name: "http://img.youtube.com/vi/f9bUl-agkUU/mqdefault.jpg",
+          children: [
+                        "do_2144015677903503361196",
+                    ],
+          root: false,
+                },
+        do_2144015677903503361196: {
+          name: "पोस्ट 1: भारत में कोविड के टीके",
+          children: [],
+          root: false,
+                },
+        do_2144015867701411841319: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Intro_202106241628506453.png",
+          children: [
+                        "do_2144015678044979201198",
+                        "do_2144015678268375041200",
+                    ],
+          root: false,
+                },
+        do_2144015678044979201198: {
+          name: "Myths - COVID-19 FAQs",
+          children: [],
+          root: false,
+                },
+        do_2144015678268375041200: {
+          name: "Vaccination - COVID-19 FAQs",
+          children: [],
+          root: false,
+                },
+        do_2144015867699445761285: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p9_202106241401547068.jpg",
+          children: [
+                        "do_2144015678539448321202",
+                        "do_2144015678733762561204",
+                    ],
+          root: false,
+                },
+        do_2144015678539448321202: {
+          name: "2",
+          children: [],
+          root: false,
+                },
+        do_2144015678733762561204: {
+          name: "1",
+          children: [],
+          root: false,
+                },
+        do_2144015867700838401309: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Tikakaran_Imp_202106241126121526.jpg",
+          children: [
+                        "do_2144015678934056961206",
+                        "do_2144015679133122561208",
+                    ],
+          root: false,
+                },
+        do_2144015678934056961206: {
+          name: "वैक्सीन कोरोनावायरस से लड़ने में हमारी मदद कैसे कर सकता है?",
+          children: [],
+          root: false,
+                },
+        do_2144015679133122561208: {
+          name: "COVID-19 के टीके कैसे काम करते हैं?",
+          children: [],
+          root: false,
+                },
+        do_2144015867700101121295: {
+          name: "http://img.youtube.com/vi/IB3Ic40rOI8/mqdefault.jpg",
+          children: [
+                        "do_2144015679349473281210",
+                    ],
+          root: false,
+                },
+        do_2144015679349473281210: {
+          name: "पोस्ट 6: टीकाकरण मिथक बस्टर",
+          children: [],
+          root: false,
+                },
+        do_2144015867699281921283: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post7_1_202106241328572795.jpg",
+          children: [
+                        "do_2144015684215029761214",
+                        "do_2144015684446863361216",
+                        "do_2144015684636180481218",
+                    ],
+          root: false,
+                },
+        do_2144015684215029761214: {
+          name: "3",
+          children: [],
+          root: false,
+                },
+        do_2144015684446863361216: {
+          name: "2",
+          children: [],
+          root: false,
+                },
+        do_2144015684636180481218: {
+          name: "1",
+          children: [],
+          root: false,
+                },
+        do_2144015867701657601321: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p10_202106241332283378.jpg",
+          children: [
+                        "do_2144015687285964801220",
+                        "do_2144015687443087361222",
+                    ],
+          root: false,
+                },
+        do_2144015687285964801220: {
+          name: "1",
+          children: [],
+          root: false,
+                },
+        do_2144015687443087361222: {
+          name: "2",
+          children: [],
+          root: false,
+                },
+        do_2144015867699691521287: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p8_202106241331386642.jpg",
+          children: [
+                        "do_2144015687636090881224",
+                        "do_2144015687796408321226",
+                    ],
+          root: false,
+                },
+        do_2144015687636090881224: {
+          name: "1",
+          children: [],
+          root: false,
+                },
+        do_2144015687796408321226: {
+          name: "2",
+          children: [],
+          root: false,
+                },
+        do_2144015867700428801301: {
+          name: "मॉड्यूल 1",
+          children: [
+                        "do_2144015867699773441289",
+                        "do_2144015867701248001317",
+                        "do_2144015867701166081315",
+                        "do_2144015867700264961297",
+                        "do_2144015867701002241311",
+                        "do_2144015867699855361291",
+                        "do_2144015867700674561305",
+                        "do_2144015867700756481307",
+                        "do_2144015867700346881299",
+                        "do_2144015867698954241277",
+                        "do_2144015867699118081279",
+                    ],
+          root: false,
+                },
+        do_2144015867699773441289: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Poll_Question_Module_1_Post_3_202106231826332559.png",
+          children: [
+                        "do_2144015687950336001228",
+                    ],
+          root: false,
+                },
+        do_2144015687950336001228: {
+          name: "पोस्ट 3: मतदान प्रश्न",
+          children: [],
+          root: false,
+                },
+        do_2144015867701248001317: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Poll_Question_Module_1_Post_8_202106231830308710.png",
+          children: [
+                        "do_2144015688150630401230",
+                    ],
+          root: false,
+                },
+        do_2144015688150630401230: {
+          name: "पोस्ट 8: मतदान प्रश्न",
+          children: [],
+          root: false,
+                },
+        do_2144015867701166081315: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post10_202106221452503709.jpg",
+          children: [
+                        "do_2144015688468889601232",
+                        "do_2144015688706129921234",
+                    ],
+          root: false,
+                },
+        do_2144015688468889601232: {
+          name: "Corona के लिए कब और कौन सा टेस्ट करवाना चाहिए?",
+          children: [],
+          root: false,
+                },
+        do_2144015688706129921234: {
+          name: "आरटी-पीसीआर और रैपिड एंटीजन टेस्ट के बीच क्या अंतर है?",
+          children: [],
+          root: false,
+                },
+        do_2144015867700264961297: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Poll_Question_Module_1_Post_9__202106241025564348.png",
+          children: [
+                        "do_2144015688838512641236",
+                    ],
+          root: false,
+                },
+        do_2144015688838512641236: {
+          name: "पोस्ट 9: मतदान प्रश्न",
+          children: [],
+          root: false,
+                },
+        do_2144015867701002241311: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post4_202106221308051956.png",
+          children: [
+                        "do_2144015689091481601238",
+                        "do_2144015689302589441240",
+                        "do_2144015689379758081241",
+                    ],
+          root: false,
+                },
+        do_2144015689091481601238: {
+          name: "घर पर मास्क कैसे सिलें",
+          children: [],
+          root: false,
+                },
+        do_2144015689302589441240: {
+          name: "बिना सिलाई के मास्क कैसे बनाएं:",
+          children: [],
+          root: false,
+                },
+        do_2144015689379758081241: {
+          name: "डबल मास्क कैसे पहनें",
+          children: [],
+          root: false,
+                },
+        do_2144015867699855361291: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Intro_202106221546398791.png",
+          children: [
+                        "do_2144015689491660801243",
+                    ],
+          root: false,
+                },
+        do_2144015689491660801243: {
+          name: "पोस्ट 1 - स्वागत है",
+          children: [],
+          root: false,
+                },
+        do_2144015867700674561305: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Intro_202106221547114465.png",
+          children: [
+                        "do_2144015692165611521245",
+                        "do_2144015692323143681247",
+                    ],
+          root: false,
+                },
+        do_2144015692165611521245: {
+          name: "Introduction and Prevention - COVID-19 FAQs",
+          children: [],
+          root: false,
+                },
+        do_2144015692323143681247: {
+          name: "COVID Testing - COVID-19 FAQs",
+          children: [],
+          root: false,
+                },
+        do_2144015867700756481307: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post6_202106221452147407.jpg",
+          children: [
+                        "do_2144015692585123841249",
+                        "do_2144015692771164161251",
+                        "do_2144015692825313281252",
+                    ],
+          root: false,
+                },
+        do_2144015692585123841249: {
+          name: "घर लौटने के बाद इन चरणों का पालन करें",
+          children: [],
+          root: false,
+                },
+        do_2144015692771164161251: {
+          name: "हाथ धोने का सही तरीका",
+          children: [],
+          root: false,
+                },
+        do_2144015692825313281252: {
+          name: "सब्जियों और फलों का उपयोग कैसे करें",
+          children: [],
+          root: false,
+                },
+        do_2144015867700346881299: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post2_202106221310079349.jpg",
+          children: [
+                        "do_2144015695497134081254",
+                        "do_2144015695669657601256",
+                        "do_2144015695837020161258",
+                    ],
+          root: false,
+                },
+        do_2144015695497134081254: {
+          name: "Covid19 के नए लक्षण जिन्हें आपको नज़रअंदाज़ नहीं करना चाहिए",
+          children: [],
+          root: false,
+                },
+        do_2144015695669657601256: {
+          name: "5 - कोरोना-वायरस के लक्षण",
+          children: [],
+          root: false,
+                },
+        do_2144015695837020161258: {
+          name: "Covid-19 के नए और पुराने लक्षण क्या हैं?",
+          children: [],
+          root: false,
+                },
+        do_2144015867698954241277: {
+          name: "http://img.youtube.com/vi/N7TZ7HhsviU/mqdefault.jpg",
+          children: [
+                        "do_2144015696028139521260",
+                    ],
+          root: false,
+                },
+        do_2144015696028139521260: {
+          name: "पोस्ट 5: घर के बाहर बरती जाने वाली सावधानियां - 2",
+          children: [],
+          root: false,
+                },
+        do_2144015867699118081279: {
+          name: "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post7_202106221452322615.jpg",
+          children: [
+                        "do_2144015696228433921262",
+                        "do_2144015696419143681264",
+                        "do_2144015696613457921266",
+                    ],
+          root: false,
+                },
+        do_2144015696228433921262: {
+          name: "कोरोना+ मरीज घर पर Isolate रहें या Hospital में भर्ती हों?",
+          children: [],
+          root: false,
+                },
+        do_2144015696419143681264: {
+          name: "घर पर तापमान की जांच कैसे करें?",
+          children: [],
+          root: false,
+                },
+        do_2144015696613457921266: {
+          name: "पल्स-ऑक्सीमीटर का घर पर सही तरीके से कैसे उपयोग करें?",
+          children: [],
+          root: false,
+                },
+            },
+      lastUpdatedBy: "82470f1e-0154-48d2-aa2c-407b42b3c83f",
+        },
+    },
+}
+
+
+In our code 
+This is working request
+{
+    "request": {
+        "data": {
+            "nodesModified": {
+                "do_2144015867536670721268": {
+                    "root": true,
+                    "objectType": "Content",
+                    "metadata": {
+                        "appIcon": "https://knowlg-public.s3-ap-south-1.amazonaws.com/collection/do_2144015867536670721268/artifact/hindi_202106181147026417.thumb.png",
+                        "name": "Hindi",
+                        "description": "Hindi",
+                        "program": [
+                            "Open School"
+                        ],
+                        "targetDomainIds": [
+                            "pos-framework_domain_learningforlife"
+                        ],
+                        "targetSubDomainIds": [
+                            "pos-framework_subdomain_healthwellbeing"
+                        ],
+                        "targetSubjectIds": [
+                            "pos-framework_subject_generalhealthawareness"
+                        ],
+                        "targetAgeGroup": [
+                            "3-6 yrs",
+                            "6-8 yrs",
+                            "8-11 yrs",
+                            "11-14 yrs",
+                            "14-18 yrs",
+                            "18 yrs +"
+                        ],
+                        "primaryUser": [
+                            "Parents/Care givers",
+                            "Educators",
+                            "Learners/Children"
+                        ],
+                        "contentLanguage": "Hindi",
+                        "author": "SCP Channel",
+                        "contentType": "Course",
+                        "primaryCategory": "Course",
+                        "attributions": [],
+                        "keywords": [
+                            "पोस्ट 4: टीकाकरण लेने के बाद दुष्प्रभाव और देखभाल |Post 4: Side effects and care after taking vaccination"
+                        ]
+                    },
+                    "isNew": false
+                },
+                "do_2144022878697226241336": {
+                    "root": false,
+                    "objectType": "Content",
+                    "metadata": {
+                        "appIcon": "",
+                        "name": "Test new hiraachy",
+                        "description": "Test",
+                        "contentType": "CourseUnit",
+                        "primaryCategory": "Course Unit",
+                        "attributions": []
+                    },
+                    "isNew": false
+                },
+                "5e282265-d3da-4d9c-9599-4aee412d0e3f": {
+                    "root": false,
+                    "objectType": "Collection",
+                    "metadata": {
+                        "mimeType": "application/vnd.ekstep.content-collection",
+                        "code": "5e282265-d3da-4d9c-9599-4aee412d0e3f",
+                        "name": "Parent 1 notes again new",
+                        "visibility": "Parent",
+                        "contentType": "CourseUnit",
+                        "primaryCategory": "Course Unit",
+                        "appIcon": "",
+                        "attributions": [],
+                        "description": "Parent 1 notes"
+                    },
+                    "isNew": true
+                },
+                "d71db3b2-ea55-4df5-9ffa-2c2bb7f4a2b8": {
+                    "root": false,
+                    "objectType": "Collection",
+                    "metadata": {
+                        "mimeType": "application/vnd.ekstep.content-collection",
+                        "code": "d71db3b2-ea55-4df5-9ffa-2c2bb7f4a2b8",
+                        "name": "Parent 1 notes child again new",
+                        "visibility": "Parent",
+                        "contentType": "CourseUnit",
+                        "primaryCategory": "Course Unit",
+                        "appIcon": "",
+                        "attributions": [],
+                        "description": "Parent 1 notes child"
+                    },
+                    "isNew": true
+                }
+            },
+            "hierarchy": {
+                "do_2144015867536670721268": {
+                    "name": "Hindi",
+                    "children": [
+                        "do_2144015867700592641303",
+                        "do_2144015867700428801301",
+                        "do_2144022435868672001332",
+                        "do_2144022878697226241336",
+                        "5e282265-d3da-4d9c-9599-4aee412d0e3f"
+                    ],
+                    "root": true
+                },
+                "do_2144015867700592641303": {
+                    "name": "मॉड्यूल 2",
+                    "children": [
+                        "do_2144015867700019201293",
+                        "do_2144015867699200001281",
+                        "do_2144015867701084161313",
+                        "do_2144015867701411841319",
+                        "do_2144015867699445761285",
+                        "do_2144015867700838401309",
+                        "do_2144015867700101121295",
+                        "do_2144015867699281921283",
+                        "do_2144015867701657601321",
+                        "do_2144015867699691521287",
+                        "do_2144022477484523521334"
+                    ],
+                    "root": false
+                },
+                "do_2144015867700019201293": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p4_202106241401064373.jpg",
+                    "children": [
+                        "do_2144015677422796801191",
+                        "do_2144015677521674241192"
+                    ],
+                    "root": false
+                },
+                "do_2144015677422796801191": {
+                    "name": "कोविड-19 वैक्सीन के दुष्प्रभाव",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015677521674241192": {
+                    "name": "टीकाकरण के बाद ज़िम्मेदारियाँ",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867699200001281": {
+                    "name": "http://img.youtube.com/vi/RKtU0-QZK3A/mqdefault.jpg",
+                    "children": [
+                        "do_2144015677713530881194"
+                    ],
+                    "root": false
+                },
+                "do_2144015677713530881194": {
+                    "name": "पोस्ट 5: प्रोजेक्ट 2 - टीकाकरण पंजीकरण",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867701084161313": {
+                    "name": "http://img.youtube.com/vi/f9bUl-agkUU/mqdefault.jpg",
+                    "children": [
+                        "do_2144015677903503361196"
+                    ],
+                    "root": false
+                },
+                "do_2144015677903503361196": {
+                    "name": "पोस्ट 1: भारत में कोविड के टीके",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867701411841319": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Intro_202106241628506453.png",
+                    "children": [
+                        "do_2144015678044979201198",
+                        "do_2144015678268375041200"
+                    ],
+                    "root": false
+                },
+                "do_2144015678044979201198": {
+                    "name": "Myths - COVID-19 FAQs",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015678268375041200": {
+                    "name": "Vaccination - COVID-19 FAQs",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867699445761285": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p9_202106241401547068.jpg",
+                    "children": [
+                        "do_2144015678539448321202",
+                        "do_2144015678733762561204"
+                    ],
+                    "root": false
+                },
+                "do_2144015678539448321202": {
+                    "name": "2",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015678733762561204": {
+                    "name": "1",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867700838401309": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Tikakaran_Imp_202106241126121526.jpg",
+                    "children": [
+                        "do_2144015678934056961206",
+                        "do_2144015679133122561208"
+                    ],
+                    "root": false
+                },
+                "do_2144015678934056961206": {
+                    "name": "वैक्सीन कोरोनावायरस से लड़ने में हमारी मदद कैसे कर सकता है?",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015679133122561208": {
+                    "name": "COVID-19 के टीके कैसे काम करते हैं?",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867700101121295": {
+                    "name": "http://img.youtube.com/vi/IB3Ic40rOI8/mqdefault.jpg",
+                    "children": [
+                        "do_2144015679349473281210"
+                    ],
+                    "root": false
+                },
+                "do_2144015679349473281210": {
+                    "name": "पोस्ट 6: टीकाकरण मिथक बस्टर",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867699281921283": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post7_1_202106241328572795.jpg",
+                    "children": [
+                        "do_2144015684215029761214",
+                        "do_2144015684446863361216",
+                        "do_2144015684636180481218"
+                    ],
+                    "root": false
+                },
+                "do_2144015684215029761214": {
+                    "name": "3",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015684446863361216": {
+                    "name": "2",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015684636180481218": {
+                    "name": "1",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867701657601321": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p10_202106241332283378.jpg",
+                    "children": [
+                        "do_2144015687285964801220",
+                        "do_2144015687443087361222"
+                    ],
+                    "root": false
+                },
+                "do_2144015687285964801220": {
+                    "name": "1",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015687443087361222": {
+                    "name": "2",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867699691521287": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/m2p8_202106241331386642.jpg",
+                    "children": [
+                        "do_2144015687636090881224",
+                        "do_2144015687796408321226"
+                    ],
+                    "root": false
+                },
+                "do_2144015687636090881224": {
+                    "name": "1",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015687796408321226": {
+                    "name": "2",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144022477484523521334": {
+                    "name": "Course Unit Added child",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867700428801301": {
+                    "name": "मॉड्यूल 1",
+                    "children": [
+                        "do_2144015867699773441289",
+                        "do_2144015867701248001317",
+                        "do_2144015867701166081315",
+                        "do_2144015867700264961297",
+                        "do_2144015867701002241311",
+                        "do_2144015867699855361291",
+                        "do_2144015867700674561305",
+                        "do_2144015867700756481307",
+                        "do_2144015867700346881299",
+                        "do_2144015867698954241277",
+                        "do_2144015867699118081279"
+                    ],
+                    "root": false
+                },
+                "do_2144015867699773441289": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Poll_Question_Module_1_Post_3_202106231826332559.png",
+                    "children": [
+                        "do_2144015687950336001228"
+                    ],
+                    "root": false
+                },
+                "do_2144015687950336001228": {
+                    "name": "पोस्ट 3: मतदान प्रश्न",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867701248001317": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Poll_Question_Module_1_Post_8_202106231830308710.png",
+                    "children": [
+                        "do_2144015688150630401230"
+                    ],
+                    "root": false
+                },
+                "do_2144015688150630401230": {
+                    "name": "पोस्ट 8: मतदान प्रश्न",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867701166081315": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post10_202106221452503709.jpg",
+                    "children": [
+                        "do_2144015688468889601232",
+                        "do_2144015688706129921234"
+                    ],
+                    "root": false
+                },
+                "do_2144015688468889601232": {
+                    "name": "Corona के लिए कब और कौन सा टेस्ट करवाना चाहिए?",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015688706129921234": {
+                    "name": "आरटी-पीसीआर और रैपिड एंटीजन टेस्ट के बीच क्या अंतर है?",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867700264961297": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Poll_Question_Module_1_Post_9__202106241025564348.png",
+                    "children": [
+                        "do_2144015688838512641236"
+                    ],
+                    "root": false
+                },
+                "do_2144015688838512641236": {
+                    "name": "पोस्ट 9: मतदान प्रश्न",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867701002241311": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post4_202106221308051956.png",
+                    "children": [
+                        "do_2144015689091481601238",
+                        "do_2144015689302589441240",
+                        "do_2144015689379758081241"
+                    ],
+                    "root": false
+                },
+                "do_2144015689091481601238": {
+                    "name": "घर पर मास्क कैसे सिलें",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015689302589441240": {
+                    "name": "बिना सिलाई के मास्क कैसे बनाएं:",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015689379758081241": {
+                    "name": "डबल मास्क कैसे पहनें",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867699855361291": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Intro_202106221546398791.png",
+                    "children": [
+                        "do_2144015689491660801243"
+                    ],
+                    "root": false
+                },
+                "do_2144015689491660801243": {
+                    "name": "पोस्ट 1 - स्वागत है",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867700674561305": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/Intro_202106221547114465.png",
+                    "children": [
+                        "do_2144015692165611521245",
+                        "do_2144015692323143681247"
+                    ],
+                    "root": false
+                },
+                "do_2144015692165611521245": {
+                    "name": "Introduction and Prevention - COVID-19 FAQs",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015692323143681247": {
+                    "name": "COVID Testing - COVID-19 FAQs",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867700756481307": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post6_202106221452147407.jpg",
+                    "children": [
+                        "do_2144015692585123841249",
+                        "do_2144015692771164161251",
+                        "do_2144015692825313281252"
+                    ],
+                    "root": false
+                },
+                "do_2144015692585123841249": {
+                    "name": "घर लौटने के बाद इन चरणों का पालन करें",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015692771164161251": {
+                    "name": "हाथ धोने का सही तरीका",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015692825313281252": {
+                    "name": "सब्जियों और फलों का उपयोग कैसे करें",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867700346881299": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post2_202106221310079349.jpg",
+                    "children": [
+                        "do_2144015695497134081254",
+                        "do_2144015695669657601256",
+                        "do_2144015695837020161258"
+                    ],
+                    "root": false
+                },
+                "do_2144015695497134081254": {
+                    "name": "Covid19 के नए लक्षण जिन्हें आपको नज़रअंदाज़ नहीं करना चाहिए",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015695669657601256": {
+                    "name": "5 - कोरोना-वायरस के लक्षण",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015695837020161258": {
+                    "name": "Covid-19 के नए और पुराने लक्षण क्या हैं?",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867698954241277": {
+                    "name": "http://img.youtube.com/vi/N7TZ7HhsviU/mqdefault.jpg",
+                    "children": [
+                        "do_2144015696028139521260"
+                    ],
+                    "root": false
+                },
+                "do_2144015696028139521260": {
+                    "name": "पोस्ट 5: घर के बाहर बरती जाने वाली सावधानियां - 2",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015867699118081279": {
+                    "name": "https://devpos.blob.core.windows.net/coursecontent/covid19awareness/Images/post7_202106221452322615.jpg",
+                    "children": [
+                        "do_2144015696228433921262",
+                        "do_2144015696419143681264",
+                        "do_2144015696613457921266"
+                    ],
+                    "root": false
+                },
+                "do_2144015696228433921262": {
+                    "name": "कोरोना+ मरीज घर पर Isolate रहें या Hospital में भर्ती हों?",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015696419143681264": {
+                    "name": "घर पर तापमान की जांच कैसे करें?",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144015696613457921266": {
+                    "name": "पल्स-ऑक्सीमीटर का घर पर सही तरीके से कैसे उपयोग करें?",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144022435868672001332": {
+                    "name": "Course Unit",
+                    "children": [],
+                    "root": false
+                },
+                "do_2144022878697226241336": {
+                    "name": "Test new hiraachy",
+                    "children": [],
+                    "root": false
+                },
+                "5e282265-d3da-4d9c-9599-4aee412d0e3f": {
+                    "name": "Parent 1 notes updated",
+                    "children": [
+                        "d71db3b2-ea55-4df5-9ffa-2c2bb7f4a2b8"
+                    ],
+                    "root": false
+                },
+                "d71db3b2-ea55-4df5-9ffa-2c2bb7f4a2b8": {
+                    "name": "Parent 1 notes child updated",
+                    "children": [
+                        "do_2144017082134036481330"
+                    ],
+                    "root": false
+                }
+            },
+            "lastUpdatedBy": "82470f1e-0154-48d2-aa2c-407b42b3c83f"
+        }
+    }
+}
