@@ -1,0 +1,2206 @@
+{
+    "id": "api.taxonomy.framework.read",
+    "ver": "3.0",
+    "ts": "2025-05-28T08:59:16ZZ",
+    "params": {
+        "resmsgid": "63e4ef03-f986-46a7-97ac-d26bacb765da",
+        "msgid": null,
+        "err": null,
+        "status": "successful",
+        "errmsg": null
+    },
+    "responseCode": "OK",
+    "result": {
+        "framework": {
+            "lastStatusChangedOn": "2025-02-04T07:25:06.204+0000",
+            "name": "POS Framework",
+            "createdOn": "2025-02-04T07:25:06.204+0000",
+            "channel": "pos-channel",
+            "lastUpdatedOn": "2025-02-04T07:25:06.204+0000",
+            "identifier": "pos-framework",
+            "description": "POS Framework",
+            "languageCode": [],
+            "systemDefault": "No",
+            "versionKey": "1738653906204",
+            "code": "pos-framework",
+            "objectType": "Framework",
+            "status": "Live",
+            "categories": [
+                {
+                    "identifier": "pos-framework_domain",
+                    "code": "domain",
+                    "terms": [
+                        {
+                            "associations": [
+                                {
+                                    "name": "Hindi",
+                                    "identifier": "pos-framework_subject_hindi",
+                                    "description": "Hindi",
+                                    "code": "hindi",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "TV Episodes",
+                                    "identifier": "pos-framework_subject_tvepisodes",
+                                    "description": "TV Episodes",
+                                    "code": "tvEpisodes",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Painting",
+                                    "identifier": "pos-framework_subject_painting",
+                                    "description": "Painting",
+                                    "code": "painting",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Rhymes & Lullabies",
+                                    "identifier": "pos-framework_subject_rhymesandlullabies",
+                                    "description": "Rhymes & Lullabies",
+                                    "code": "rhymesAndLullabies",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Social Science",
+                                    "identifier": "pos-framework_subject_socialscience",
+                                    "description": "Social Science",
+                                    "code": "socialScience",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Social Studies",
+                                    "identifier": "pos-framework_subject_socialstudies",
+                                    "description": "Social Studies",
+                                    "code": "socialStudies",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Stories",
+                                    "identifier": "pos-framework_subject_stories",
+                                    "description": "Stories",
+                                    "code": "stories",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Urdu",
+                                    "identifier": "pos-framework_subject_urdu",
+                                    "description": "Urdu",
+                                    "code": "urdu",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Podcasts",
+                                    "identifier": "pos-framework_subject_podcasts",
+                                    "description": "Podcasts",
+                                    "code": "podcasts",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Riddles",
+                                    "identifier": "pos-framework_subject_riddles",
+                                    "description": "Riddles",
+                                    "code": "riddles",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "School Readiness",
+                                    "identifier": "pos-framework_subject_schoolreadiness",
+                                    "description": "School Readiness",
+                                    "code": "schoolReadiness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Early Learning & School Readiness",
+                                    "identifier": "pos-framework_subject_earlylearningandschoolreadiness",
+                                    "description": "Early Learning & School Readiness",
+                                    "code": "earlyLearningAndSchoolReadiness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Academics",
+                                    "identifier": "pos-framework_subdomain_academics",
+                                    "description": "Academics",
+                                    "code": "academics",
+                                    "status": "Live",
+                                    "category": "subDomain",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Math",
+                                    "identifier": "pos-framework_subject_math",
+                                    "description": "Math",
+                                    "code": "math",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Yoga",
+                                    "identifier": "pos-framework_subject_yoga",
+                                    "description": "Yoga",
+                                    "code": "yoga",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Gujarati",
+                                    "identifier": "pos-framework_subject_gujarati",
+                                    "description": "Gujarati",
+                                    "code": "gujarati",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Data Computing/Data Entry",
+                                    "identifier": "pos-framework_subject_datacomputingdataentry",
+                                    "description": "Data Computing/Data Entry",
+                                    "code": "dataComputingDataEntry",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Marathi",
+                                    "identifier": "pos-framework_subject_marathi",
+                                    "description": "Marathi",
+                                    "code": "marathi",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "English",
+                                    "identifier": "pos-framework_subject_english",
+                                    "description": "English",
+                                    "code": "english",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Innovative Strategies",
+                                    "identifier": "pos-framework_subject_innovativestrategies",
+                                    "description": "Innovative Strategies",
+                                    "code": "innovativeStrategies",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "General/Other",
+                                    "identifier": "pos-framework_subject_generalother",
+                                    "description": "General/Other",
+                                    "code": "generalOther",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Activity Videos",
+                                    "identifier": "pos-framework_subject_activityvideos",
+                                    "description": "Activity Videos",
+                                    "code": "activityVideos",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Tamil",
+                                    "identifier": "pos-framework_subject_tamil",
+                                    "description": "Tamil",
+                                    "code": "tamil",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Holistic Development",
+                                    "identifier": "pos-framework_subject_holisticdevelopment",
+                                    "description": "Holistic Development",
+                                    "code": "holisticDevelopment",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Media Moments",
+                                    "identifier": "pos-framework_subdomain_mediamoments",
+                                    "description": "Media Moments",
+                                    "code": "mediaMoments",
+                                    "status": "Live",
+                                    "category": "subDomain",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Subject Specific Learning",
+                                    "identifier": "pos-framework_subject_subjectspecificlearning",
+                                    "description": "Subject Specific Learning",
+                                    "code": "subjectSpecificLearning",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Knowledge Videos",
+                                    "identifier": "pos-framework_subject_knowledgevideos",
+                                    "description": "Knowledge Videos",
+                                    "code": "knowledgeVideos",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Telugu",
+                                    "identifier": "pos-framework_subject_telugu",
+                                    "description": "Telugu",
+                                    "code": "telugu",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Indian Culture & History",
+                                    "identifier": "pos-framework_subject_indiancultureandhistory",
+                                    "description": "Indian Culture & History",
+                                    "code": "indianCultureAndHistory",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Kannada",
+                                    "identifier": "pos-framework_subject_kannada",
+                                    "description": "Kannada",
+                                    "code": "kannada",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Science",
+                                    "identifier": "pos-framework_subject_science",
+                                    "description": "Science",
+                                    "code": "science",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Home Science",
+                                    "identifier": "pos-framework_subject_homescience",
+                                    "description": "Home Science",
+                                    "code": "homeScience",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Computational Thinking",
+                                    "identifier": "pos-framework_subject_computationalthinking",
+                                    "description": "Computational Thinking",
+                                    "code": "computationalThinking",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Growth & Learning",
+                                    "identifier": "pos-framework_subdomain_growthplayfullearning",
+                                    "description": "Growth & Learning",
+                                    "code": "growthPlayfulLearning",
+                                    "status": "Live",
+                                    "category": "subDomain",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Odia",
+                                    "identifier": "pos-framework_subject_odia",
+                                    "description": "Odia",
+                                    "code": "odia",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Inclusive Education",
+                                    "identifier": "pos-framework_subdomain_inclusiveeducation",
+                                    "description": "Inclusive Education",
+                                    "code": "inclusiveEducation",
+                                    "status": "Live",
+                                    "category": "subDomain",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Spoken English",
+                                    "identifier": "pos-framework_subject_spokenenglish",
+                                    "description": "Spoken English",
+                                    "code": "spokenEnglish",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_domain_learningforschool",
+                            "code": "learningForSchool",
+                            "name": "Learning for School",
+                            "description": "Learning for School",
+                            "index": 1,
+                            "category": "domain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Good Contractor Program",
+                                    "identifier": "pos-framework_subject_goodcontractorprogram",
+                                    "description": "Good Contractor Program",
+                                    "code": "goodContractorProgram",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "New Age Skills",
+                                    "identifier": "pos-framework_subdomain_newageskills",
+                                    "description": "New Age Skills",
+                                    "code": "newAgeSkills",
+                                    "status": "Live",
+                                    "category": "subDomain",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Agriculture Education",
+                                    "identifier": "pos-framework_subject_agricultureeducation",
+                                    "description": "Agriculture Education",
+                                    "code": "agricultureEducation",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Automotive",
+                                    "identifier": "pos-framework_subject_automotive",
+                                    "description": "Automotive",
+                                    "code": "automotive",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Job Readiness",
+                                    "identifier": "pos-framework_subject_jobreadiness",
+                                    "description": "Job Readiness",
+                                    "code": "jobReadiness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Electrical",
+                                    "identifier": "pos-framework_subject_electrical",
+                                    "description": "Electrical",
+                                    "code": "electrical",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Beauty",
+                                    "identifier": "pos-framework_subject_beauty",
+                                    "description": "Beauty",
+                                    "code": "beauty",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Hospitality & Tourism",
+                                    "identifier": "pos-framework_subject_hospitalityandtourism",
+                                    "description": "Hospitality & Tourism",
+                                    "code": "hospitalityAndTourism",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Apparel",
+                                    "identifier": "pos-framework_subject_apparel",
+                                    "description": "Apparel",
+                                    "code": "apparel",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Media & Graphics",
+                                    "identifier": "pos-framework_subject_mediaandgraphics",
+                                    "description": "Media & Graphics",
+                                    "code": "mediaAndGraphics",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Waterworks Management & Sanitation",
+                                    "identifier": "pos-framework_subject_waterworksmanagementandsanitation",
+                                    "description": "Waterworks Management & Sanitation",
+                                    "code": "waterworksManagementAndSanitation",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Construction",
+                                    "identifier": "pos-framework_subject_construction",
+                                    "description": "Construction",
+                                    "code": "construction",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Career Exploration",
+                                    "identifier": "pos-framework_subdomain_careerexploration",
+                                    "description": "Career Exploration",
+                                    "code": "careerExploration",
+                                    "status": "Live",
+                                    "category": "subDomain",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "ITES",
+                                    "identifier": "pos-framework_subject_ites",
+                                    "description": "Information Technology Enabled Services",
+                                    "code": "ites",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Welding",
+                                    "identifier": "pos-framework_subject_welding",
+                                    "description": "Welding",
+                                    "code": "welding",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Everyday Skills",
+                                    "identifier": "pos-framework_subject_everydayskills",
+                                    "description": "Everyday Skills",
+                                    "code": "everydaySkills",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Healthcare",
+                                    "identifier": "pos-framework_subject_healthcare",
+                                    "description": "Healthcare",
+                                    "code": "healthcare",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Career Awareness",
+                                    "identifier": "pos-framework_subject_careerawareness",
+                                    "description": "Career Awareness",
+                                    "code": "careerAwareness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Digital Skill Building",
+                                    "identifier": "pos-framework_subject_digitalskillbuilding",
+                                    "description": "Digital Skill Building",
+                                    "code": "digitalSkillBuilding",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Essential Awareness",
+                                    "identifier": "pos-framework_subject_essentialawareness",
+                                    "description": "Essential Awareness",
+                                    "code": "essentialAwareness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_domain_learningforwork",
+                            "code": "learningForWork",
+                            "name": "Learning for Work",
+                            "description": "Learning for Work",
+                            "index": 2,
+                            "category": "domain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Performing Arts",
+                                    "identifier": "pos-framework_subject_performingarts",
+                                    "description": "Performing Arts",
+                                    "code": "performingArts",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Visual Arts",
+                                    "identifier": "pos-framework_subject_visualarts",
+                                    "description": "Visual Arts",
+                                    "code": "visualArts",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Team Games",
+                                    "identifier": "pos-framework_subject_teamgames",
+                                    "description": "Team Games",
+                                    "code": "teamGames",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Creative Arts",
+                                    "identifier": "pos-framework_subdomain_creativearts",
+                                    "description": "Creative Arts",
+                                    "code": "creativeArts",
+                                    "status": "Live",
+                                    "category": "subDomain",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Environment Education",
+                                    "identifier": "pos-framework_subdomain_environmenteducation",
+                                    "description": "Environment Education",
+                                    "code": "environmentEducation",
+                                    "status": "Live",
+                                    "category": "subDomain",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Climate Education",
+                                    "identifier": "pos-framework_subject_climateeducation",
+                                    "description": "Climate Education",
+                                    "code": "climateEducation",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Tech for Environment",
+                                    "identifier": "pos-framework_subject_techforenvironment",
+                                    "description": "Tech for Environment",
+                                    "code": "techForEnvironment",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Inclusive Learning",
+                                    "identifier": "pos-framework_subdomain_inclusivelearning",
+                                    "description": "Inclusive Learning",
+                                    "code": "inclusiveLearning",
+                                    "status": "Live",
+                                    "category": "subDomain",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Biodiversity & Conservation",
+                                    "identifier": "pos-framework_subject_biodiversityandconservation",
+                                    "description": "Biodiversity & Conservation",
+                                    "code": "biodiversityAndConservation",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Crafts & Design",
+                                    "identifier": "pos-framework_subject_craftsanddesign",
+                                    "description": "Crafts & Design",
+                                    "code": "craftsAndDesign",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "General Health Awareness",
+                                    "identifier": "pos-framework_subject_generalhealthawareness",
+                                    "description": "General Health Awareness",
+                                    "code": "generalHealthAwareness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Mental Health",
+                                    "identifier": "pos-framework_subject_mentalhealth",
+                                    "description": "Mental Health",
+                                    "code": "mentalHealth",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Training & Capacity Building",
+                                    "identifier": "pos-framework_subject_trainingandcapacitybuilding",
+                                    "description": "Training & Capacity Building",
+                                    "code": "trainingAndCapacityBuilding",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Individual Sports",
+                                    "identifier": "pos-framework_subject_individualsports",
+                                    "description": "Individual Sports",
+                                    "code": "individualSports",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Natural Resources",
+                                    "identifier": "pos-framework_subject_naturalresources",
+                                    "description": "Natural Resources",
+                                    "code": "naturalResources",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Therapy & Rehabilitation",
+                                    "identifier": "pos-framework_subject_therapyandrehabilitation",
+                                    "description": "Therapy & Rehabilitation",
+                                    "code": "therapyAndRehabilitation",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Awareness & Advocacy",
+                                    "identifier": "pos-framework_subject_awarenessandadvocacy",
+                                    "description": "Awareness & Advocacy",
+                                    "code": "awarenessAndAdvocacy",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Art & Culture",
+                                    "identifier": "pos-framework_subject_artandculture",
+                                    "description": "Art & Culture",
+                                    "code": "artAndCulture",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Daily-living & Independence",
+                                    "identifier": "pos-framework_subject_dailylivingandindependence",
+                                    "description": "Daily-living & Independence",
+                                    "code": "dailyLivingAndIndependence",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Physical Health",
+                                    "identifier": "pos-framework_subject_physicalhealth",
+                                    "description": "Physical Health",
+                                    "code": "physicalHealth",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Digital Games",
+                                    "identifier": "pos-framework_subject_digitalgames",
+                                    "description": "Digital Games",
+                                    "code": "digitalGames",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Sports",
+                                    "identifier": "pos-framework_subdomain_sports",
+                                    "description": "Sports",
+                                    "code": "sports",
+                                    "status": "Live",
+                                    "category": "subDomain",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Sustainable Living",
+                                    "identifier": "pos-framework_subject_sustainableliving",
+                                    "description": "Sustainable Living",
+                                    "code": "sustainableLiving",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Health & Wellbeing",
+                                    "identifier": "pos-framework_subdomain_healthwellbeing",
+                                    "description": "Health & Wellbeing",
+                                    "code": "healthWellbeing",
+                                    "status": "Live",
+                                    "category": "subDomain",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_domain_learningforlife",
+                            "code": "learningForLife",
+                            "name": "Learning for Life",
+                            "description": "Learning for Life",
+                            "index": 3,
+                            "category": "domain",
+                            "status": "Live"
+                        }
+                    ],
+                    "name": "Domain",
+                    "description": "Domain",
+                    "index": 1,
+                    "status": "Live"
+                },
+                {
+                    "identifier": "pos-framework_subdomain",
+                    "code": "subDomain",
+                    "terms": [
+                        {
+                            "associations": [
+                                {
+                                    "name": "Art & Culture",
+                                    "identifier": "pos-framework_subject_artandculture",
+                                    "description": "Art & Culture",
+                                    "code": "artAndCulture",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Performing Arts",
+                                    "identifier": "pos-framework_subject_performingarts",
+                                    "description": "Performing Arts",
+                                    "code": "performingArts",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Visual Arts",
+                                    "identifier": "pos-framework_subject_visualarts",
+                                    "description": "Visual Arts",
+                                    "code": "visualArts",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Crafts & Design",
+                                    "identifier": "pos-framework_subject_craftsanddesign",
+                                    "description": "Crafts & Design",
+                                    "code": "craftsAndDesign",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_subdomain_creativearts",
+                            "code": "creativeArts",
+                            "name": "Creative Arts",
+                            "description": "Creative Arts",
+                            "index": 1,
+                            "category": "subDomain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Riddles",
+                                    "identifier": "pos-framework_subject_riddles",
+                                    "description": "Riddles",
+                                    "code": "riddles",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "School Readiness",
+                                    "identifier": "pos-framework_subject_schoolreadiness",
+                                    "description": "School Readiness",
+                                    "code": "schoolReadiness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Stories",
+                                    "identifier": "pos-framework_subject_stories",
+                                    "description": "Stories",
+                                    "code": "stories",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Computational Thinking",
+                                    "identifier": "pos-framework_subject_computationalthinking",
+                                    "description": "Computational Thinking",
+                                    "code": "computationalThinking",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Holistic Development",
+                                    "identifier": "pos-framework_subject_holisticdevelopment",
+                                    "description": "Holistic Development",
+                                    "code": "holisticDevelopment",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Rhymes & Lullabies",
+                                    "identifier": "pos-framework_subject_rhymesandlullabies",
+                                    "description": "Rhymes & Lullabies",
+                                    "code": "rhymesAndLullabies",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Spoken English",
+                                    "identifier": "pos-framework_subject_spokenenglish",
+                                    "description": "Spoken English",
+                                    "code": "spokenEnglish",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Activity Videos",
+                                    "identifier": "pos-framework_subject_activityvideos",
+                                    "description": "Activity Videos",
+                                    "code": "activityVideos",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Knowledge Videos",
+                                    "identifier": "pos-framework_subject_knowledgevideos",
+                                    "description": "Knowledge Videos",
+                                    "code": "knowledgeVideos",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_subdomain_growthplayfullearning",
+                            "code": "growthPlayfulLearning",
+                            "name": "Growth & Learning",
+                            "description": "Growth & Learning",
+                            "index": 1,
+                            "category": "subDomain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Gujarati",
+                                    "identifier": "pos-framework_subject_gujarati",
+                                    "description": "Gujarati",
+                                    "code": "gujarati",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Social Studies",
+                                    "identifier": "pos-framework_subject_socialstudies",
+                                    "description": "Social Studies",
+                                    "code": "socialStudies",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Home Science",
+                                    "identifier": "pos-framework_subject_homescience",
+                                    "description": "Home Science",
+                                    "code": "homeScience",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Marathi",
+                                    "identifier": "pos-framework_subject_marathi",
+                                    "description": "Marathi",
+                                    "code": "marathi",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Hindi",
+                                    "identifier": "pos-framework_subject_hindi",
+                                    "description": "Hindi",
+                                    "code": "hindi",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Social Science",
+                                    "identifier": "pos-framework_subject_socialscience",
+                                    "description": "Social Science",
+                                    "code": "socialScience",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Yoga",
+                                    "identifier": "pos-framework_subject_yoga",
+                                    "description": "Yoga",
+                                    "code": "yoga",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Painting",
+                                    "identifier": "pos-framework_subject_painting",
+                                    "description": "Painting",
+                                    "code": "painting",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Math",
+                                    "identifier": "pos-framework_subject_math",
+                                    "description": "Math",
+                                    "code": "math",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Urdu",
+                                    "identifier": "pos-framework_subject_urdu",
+                                    "description": "Urdu",
+                                    "code": "urdu",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Odia",
+                                    "identifier": "pos-framework_subject_odia",
+                                    "description": "Odia",
+                                    "code": "odia",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Indian Culture & History",
+                                    "identifier": "pos-framework_subject_indiancultureandhistory",
+                                    "description": "Indian Culture & History",
+                                    "code": "indianCultureAndHistory",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Telugu",
+                                    "identifier": "pos-framework_subject_telugu",
+                                    "description": "Telugu",
+                                    "code": "telugu",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "English",
+                                    "identifier": "pos-framework_subject_english",
+                                    "description": "English",
+                                    "code": "english",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Tamil",
+                                    "identifier": "pos-framework_subject_tamil",
+                                    "description": "Tamil",
+                                    "code": "tamil",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Data Computing/Data Entry",
+                                    "identifier": "pos-framework_subject_datacomputingdataentry",
+                                    "description": "Data Computing/Data Entry",
+                                    "code": "dataComputingDataEntry",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Kannada",
+                                    "identifier": "pos-framework_subject_kannada",
+                                    "description": "Kannada",
+                                    "code": "kannada",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "General/Other",
+                                    "identifier": "pos-framework_subject_generalother",
+                                    "description": "General/Other",
+                                    "code": "generalOther",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Science",
+                                    "identifier": "pos-framework_subject_science",
+                                    "description": "Science",
+                                    "code": "science",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_subdomain_academics",
+                            "code": "academics",
+                            "name": "Academics",
+                            "description": "Academics",
+                            "index": 1,
+                            "category": "subDomain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Individual Sports",
+                                    "identifier": "pos-framework_subject_individualsports",
+                                    "description": "Individual Sports",
+                                    "code": "individualSports",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Team Games",
+                                    "identifier": "pos-framework_subject_teamgames",
+                                    "description": "Team Games",
+                                    "code": "teamGames",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Digital Games",
+                                    "identifier": "pos-framework_subject_digitalgames",
+                                    "description": "Digital Games",
+                                    "code": "digitalGames",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_subdomain_sports",
+                            "code": "sports",
+                            "name": "Sports",
+                            "description": "Sports",
+                            "index": 1,
+                            "category": "subDomain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Digital Skill Building",
+                                    "identifier": "pos-framework_subject_digitalskillbuilding",
+                                    "description": "Digital Skill Building",
+                                    "code": "digitalSkillBuilding",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Essential Awareness",
+                                    "identifier": "pos-framework_subject_essentialawareness",
+                                    "description": "Essential Awareness",
+                                    "code": "essentialAwareness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Job Readiness",
+                                    "identifier": "pos-framework_subject_jobreadiness",
+                                    "description": "Job Readiness",
+                                    "code": "jobReadiness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_subdomain_newageskills",
+                            "code": "newAgeSkills",
+                            "name": "New Age Skills",
+                            "description": "New Age Skills",
+                            "index": 1,
+                            "category": "subDomain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Physical Health",
+                                    "identifier": "pos-framework_subject_physicalhealth",
+                                    "description": "Physical Health",
+                                    "code": "physicalHealth",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Mental Health",
+                                    "identifier": "pos-framework_subject_mentalhealth",
+                                    "description": "Mental Health",
+                                    "code": "mentalHealth",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "General Health Awareness",
+                                    "identifier": "pos-framework_subject_generalhealthawareness",
+                                    "description": "General Health Awareness",
+                                    "code": "generalHealthAwareness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_subdomain_healthwellbeing",
+                            "code": "healthWellbeing",
+                            "name": "Health & Wellbeing",
+                            "description": "Health & Wellbeing",
+                            "index": 1,
+                            "category": "subDomain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Beauty",
+                                    "identifier": "pos-framework_subject_beauty",
+                                    "description": "Beauty",
+                                    "code": "beauty",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Hospitality & Tourism",
+                                    "identifier": "pos-framework_subject_hospitalityandtourism",
+                                    "description": "Hospitality & Tourism",
+                                    "code": "hospitalityAndTourism",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Construction",
+                                    "identifier": "pos-framework_subject_construction",
+                                    "description": "Construction",
+                                    "code": "construction",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Career Awareness",
+                                    "identifier": "pos-framework_subject_careerawareness",
+                                    "description": "Career Awareness",
+                                    "code": "careerAwareness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Media & Graphics",
+                                    "identifier": "pos-framework_subject_mediaandgraphics",
+                                    "description": "Media & Graphics",
+                                    "code": "mediaAndGraphics",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Electrical",
+                                    "identifier": "pos-framework_subject_electrical",
+                                    "description": "Electrical",
+                                    "code": "electrical",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "ITES",
+                                    "identifier": "pos-framework_subject_ites",
+                                    "description": "Information Technology Enabled Services",
+                                    "code": "ites",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Everyday Skills",
+                                    "identifier": "pos-framework_subject_everydayskills",
+                                    "description": "Everyday Skills",
+                                    "code": "everydaySkills",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Agriculture Education",
+                                    "identifier": "pos-framework_subject_agricultureeducation",
+                                    "description": "Agriculture Education",
+                                    "code": "agricultureEducation",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Waterworks Management & Sanitation",
+                                    "identifier": "pos-framework_subject_waterworksmanagementandsanitation",
+                                    "description": "Waterworks Management & Sanitation",
+                                    "code": "waterworksManagementAndSanitation",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Welding",
+                                    "identifier": "pos-framework_subject_welding",
+                                    "description": "Welding",
+                                    "code": "welding",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Automotive",
+                                    "identifier": "pos-framework_subject_automotive",
+                                    "description": "Automotive",
+                                    "code": "automotive",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Apparel",
+                                    "identifier": "pos-framework_subject_apparel",
+                                    "description": "Apparel",
+                                    "code": "apparel",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Healthcare",
+                                    "identifier": "pos-framework_subject_healthcare",
+                                    "description": "Healthcare",
+                                    "code": "healthcare",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Good Contractor Program",
+                                    "identifier": "pos-framework_subject_goodcontractorprogram",
+                                    "description": "Good Contractor Program",
+                                    "code": "goodContractorProgram",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_subdomain_careerexploration",
+                            "code": "careerExploration",
+                            "name": "Career Exploration",
+                            "description": "Career Exploration",
+                            "index": 1,
+                            "category": "subDomain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Subject Specific Learning",
+                                    "identifier": "pos-framework_subject_subjectspecificlearning",
+                                    "description": "Subject Specific Learning",
+                                    "code": "subjectSpecificLearning",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Early Learning & School Readiness",
+                                    "identifier": "pos-framework_subject_earlylearningandschoolreadiness",
+                                    "description": "Early Learning & School Readiness",
+                                    "code": "earlyLearningAndSchoolReadiness",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Innovative Strategies",
+                                    "identifier": "pos-framework_subject_innovativestrategies",
+                                    "description": "Innovative Strategies",
+                                    "code": "innovativeStrategies",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_subdomain_inclusiveeducation",
+                            "code": "inclusiveEducation",
+                            "name": "Inclusive Education",
+                            "description": "Inclusive Education",
+                            "index": 1,
+                            "category": "subDomain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Tech for Environment",
+                                    "identifier": "pos-framework_subject_techforenvironment",
+                                    "description": "Tech for Environment",
+                                    "code": "techForEnvironment",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Biodiversity & Conservation",
+                                    "identifier": "pos-framework_subject_biodiversityandconservation",
+                                    "description": "Biodiversity & Conservation",
+                                    "code": "biodiversityAndConservation",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Climate Education",
+                                    "identifier": "pos-framework_subject_climateeducation",
+                                    "description": "Climate Education",
+                                    "code": "climateEducation",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Natural Resources",
+                                    "identifier": "pos-framework_subject_naturalresources",
+                                    "description": "Natural Resources",
+                                    "code": "naturalResources",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Sustainable Living",
+                                    "identifier": "pos-framework_subject_sustainableliving",
+                                    "description": "Sustainable Living",
+                                    "code": "sustainableLiving",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_subdomain_environmenteducation",
+                            "code": "environmentEducation",
+                            "name": "Environment Education",
+                            "description": "Environment Education",
+                            "index": 1,
+                            "category": "subDomain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Awareness & Advocacy",
+                                    "identifier": "pos-framework_subject_awarenessandadvocacy",
+                                    "description": "Awareness & Advocacy",
+                                    "code": "awarenessAndAdvocacy",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Daily-living & Independence",
+                                    "identifier": "pos-framework_subject_dailylivingandindependence",
+                                    "description": "Daily-living & Independence",
+                                    "code": "dailyLivingAndIndependence",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Therapy & Rehabilitation",
+                                    "identifier": "pos-framework_subject_therapyandrehabilitation",
+                                    "description": "Therapy & Rehabilitation",
+                                    "code": "therapyAndRehabilitation",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "Training & Capacity Building",
+                                    "identifier": "pos-framework_subject_trainingandcapacitybuilding",
+                                    "description": "Training & Capacity Building",
+                                    "code": "trainingAndCapacityBuilding",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_subdomain_inclusivelearning",
+                            "code": "inclusiveLearning",
+                            "name": "Inclusive Learning",
+                            "description": "Inclusive Learning",
+                            "index": 1,
+                            "category": "subDomain",
+                            "status": "Live"
+                        },
+                        {
+                            "associations": [
+                                {
+                                    "name": "Podcasts",
+                                    "identifier": "pos-framework_subject_podcasts",
+                                    "description": "Podcasts",
+                                    "code": "podcasts",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                },
+                                {
+                                    "name": "TV Episodes",
+                                    "identifier": "pos-framework_subject_tvepisodes",
+                                    "description": "TV Episodes",
+                                    "code": "tvEpisodes",
+                                    "status": "Live",
+                                    "category": "subject",
+                                    "index": 1
+                                }
+                            ],
+                            "identifier": "pos-framework_subdomain_mediamoments",
+                            "code": "mediaMoments",
+                            "name": "Media Moments",
+                            "description": "Media Moments",
+                            "index": 1,
+                            "category": "subDomain",
+                            "status": "Live"
+                        }
+                    ],
+                    "name": "Sub Domain",
+                    "description": "Sub Domain",
+                    "index": 2,
+                    "status": "Live"
+                },
+                {
+                    "identifier": "pos-framework_subject",
+                    "code": "subject",
+                    "terms": [
+                        {
+                            "identifier": "pos-framework_subject_electrical",
+                            "code": "electrical",
+                            "name": "Electrical",
+                            "description": "Electrical",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_socialscience",
+                            "code": "socialScience",
+                            "name": "Social Science",
+                            "description": "Social Science",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_math",
+                            "code": "math",
+                            "name": "Math",
+                            "description": "Math",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_marathi",
+                            "code": "marathi",
+                            "name": "Marathi",
+                            "description": "Marathi",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_techforenvironment",
+                            "code": "techForEnvironment",
+                            "name": "Tech for Environment",
+                            "description": "Tech for Environment",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_physicalhealth",
+                            "code": "physicalHealth",
+                            "name": "Physical Health",
+                            "description": "Physical Health",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_science",
+                            "code": "science",
+                            "name": "Science",
+                            "description": "Science",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_english",
+                            "code": "english",
+                            "name": "English",
+                            "description": "English",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_individualsports",
+                            "code": "individualSports",
+                            "name": "Individual Sports",
+                            "description": "Individual Sports",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_digitalgames",
+                            "code": "digitalGames",
+                            "name": "Digital Games",
+                            "description": "Digital Games",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_kannada",
+                            "code": "kannada",
+                            "name": "Kannada",
+                            "description": "Kannada",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_healthcare",
+                            "code": "healthcare",
+                            "name": "Healthcare",
+                            "description": "Healthcare",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_climateeducation",
+                            "code": "climateEducation",
+                            "name": "Climate Education",
+                            "description": "Climate Education",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_essentialawareness",
+                            "code": "essentialAwareness",
+                            "name": "Essential Awareness",
+                            "description": "Essential Awareness",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_therapyandrehabilitation",
+                            "code": "therapyAndRehabilitation",
+                            "name": "Therapy & Rehabilitation",
+                            "description": "Therapy & Rehabilitation",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_beauty",
+                            "code": "beauty",
+                            "name": "Beauty",
+                            "description": "Beauty",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_apparel",
+                            "code": "apparel",
+                            "name": "Apparel",
+                            "description": "Apparel",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_gujarati",
+                            "code": "gujarati",
+                            "name": "Gujarati",
+                            "description": "Gujarati",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_urdu",
+                            "code": "urdu",
+                            "name": "Urdu",
+                            "description": "Urdu",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_holisticdevelopment",
+                            "code": "holisticDevelopment",
+                            "name": "Holistic Development",
+                            "description": "Holistic Development",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_computationalthinking",
+                            "code": "computationalThinking",
+                            "name": "Computational Thinking",
+                            "description": "Computational Thinking",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_agricultureeducation",
+                            "code": "agricultureEducation",
+                            "name": "Agriculture Education",
+                            "description": "Agriculture Education",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_welding",
+                            "code": "welding",
+                            "name": "Welding",
+                            "description": "Welding",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_homescience",
+                            "code": "homeScience",
+                            "name": "Home Science",
+                            "description": "Home Science",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_painting",
+                            "code": "painting",
+                            "name": "Painting",
+                            "description": "Painting",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_riddles",
+                            "code": "riddles",
+                            "name": "Riddles",
+                            "description": "Riddles",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_innovativestrategies",
+                            "code": "innovativeStrategies",
+                            "name": "Innovative Strategies",
+                            "description": "Innovative Strategies",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_schoolreadiness",
+                            "code": "schoolReadiness",
+                            "name": "School Readiness",
+                            "description": "School Readiness",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_automotive",
+                            "code": "automotive",
+                            "name": "Automotive",
+                            "description": "Automotive",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_careerawareness",
+                            "code": "careerAwareness",
+                            "name": "Career Awareness",
+                            "description": "Career Awareness",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_knowledgevideos",
+                            "code": "knowledgeVideos",
+                            "name": "Knowledge Videos",
+                            "description": "Knowledge Videos",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_trainingandcapacitybuilding",
+                            "code": "trainingAndCapacityBuilding",
+                            "name": "Training & Capacity Building",
+                            "description": "Training & Capacity Building",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_generalother",
+                            "code": "generalOther",
+                            "name": "General/Other",
+                            "description": "General/Other",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_hindi",
+                            "code": "hindi",
+                            "name": "Hindi",
+                            "description": "Hindi",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_socialstudies",
+                            "code": "socialStudies",
+                            "name": "Social Studies",
+                            "description": "Social Studies",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_earlylearningandschoolreadiness",
+                            "code": "earlyLearningAndSchoolReadiness",
+                            "name": "Early Learning & School Readiness",
+                            "description": "Early Learning & School Readiness",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_mentalhealth",
+                            "code": "mentalHealth",
+                            "name": "Mental Health",
+                            "description": "Mental Health",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_telugu",
+                            "code": "telugu",
+                            "name": "Telugu",
+                            "description": "Telugu",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_indiancultureandhistory",
+                            "code": "indianCultureAndHistory",
+                            "name": "Indian Culture & History",
+                            "description": "Indian Culture & History",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_tamil",
+                            "code": "tamil",
+                            "name": "Tamil",
+                            "description": "Tamil",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_yoga",
+                            "code": "yoga",
+                            "name": "Yoga",
+                            "description": "Yoga",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_generalhealthawareness",
+                            "code": "generalHealthAwareness",
+                            "name": "General Health Awareness",
+                            "description": "General Health Awareness",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_spokenenglish",
+                            "code": "spokenEnglish",
+                            "name": "Spoken English",
+                            "description": "Spoken English",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_tvepisodes",
+                            "code": "tvEpisodes",
+                            "name": "TV Episodes",
+                            "description": "TV Episodes",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_visualarts",
+                            "code": "visualArts",
+                            "name": "Visual Arts",
+                            "description": "Visual Arts",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_stories",
+                            "code": "stories",
+                            "name": "Stories",
+                            "description": "Stories",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_construction",
+                            "code": "construction",
+                            "name": "Construction",
+                            "description": "Construction",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_jobreadiness",
+                            "code": "jobReadiness",
+                            "name": "Job Readiness",
+                            "description": "Job Readiness",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_odia",
+                            "code": "odia",
+                            "name": "Odia",
+                            "description": "Odia",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_awarenessandadvocacy",
+                            "code": "awarenessAndAdvocacy",
+                            "name": "Awareness & Advocacy",
+                            "description": "Awareness & Advocacy",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_ites",
+                            "code": "ites",
+                            "name": "ITES",
+                            "description": "Information Technology Enabled Services",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_hospitalityandtourism",
+                            "code": "hospitalityAndTourism",
+                            "name": "Hospitality & Tourism",
+                            "description": "Hospitality & Tourism",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_teamgames",
+                            "code": "teamGames",
+                            "name": "Team Games",
+                            "description": "Team Games",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_activityvideos",
+                            "code": "activityVideos",
+                            "name": "Activity Videos",
+                            "description": "Activity Videos",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_sustainableliving",
+                            "code": "sustainableLiving",
+                            "name": "Sustainable Living",
+                            "description": "Sustainable Living",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_dailylivingandindependence",
+                            "code": "dailyLivingAndIndependence",
+                            "name": "Daily-living & Independence",
+                            "description": "Daily-living & Independence",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_naturalresources",
+                            "code": "naturalResources",
+                            "name": "Natural Resources",
+                            "description": "Natural Resources",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_mediaandgraphics",
+                            "code": "mediaAndGraphics",
+                            "name": "Media & Graphics",
+                            "description": "Media & Graphics",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_rhymesandlullabies",
+                            "code": "rhymesAndLullabies",
+                            "name": "Rhymes & Lullabies",
+                            "description": "Rhymes & Lullabies",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_performingarts",
+                            "code": "performingArts",
+                            "name": "Performing Arts",
+                            "description": "Performing Arts",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_artandculture",
+                            "code": "artAndCulture",
+                            "name": "Art & Culture",
+                            "description": "Art & Culture",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_datacomputingdataentry",
+                            "code": "dataComputingDataEntry",
+                            "name": "Data Computing/Data Entry",
+                            "description": "Data Computing/Data Entry",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_biodiversityandconservation",
+                            "code": "biodiversityAndConservation",
+                            "name": "Biodiversity & Conservation",
+                            "description": "Biodiversity & Conservation",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_goodcontractorprogram",
+                            "code": "goodContractorProgram",
+                            "name": "Good Contractor Program",
+                            "description": "Good Contractor Program",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_waterworksmanagementandsanitation",
+                            "code": "waterworksManagementAndSanitation",
+                            "name": "Waterworks Management & Sanitation",
+                            "description": "Waterworks Management & Sanitation",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_digitalskillbuilding",
+                            "code": "digitalSkillBuilding",
+                            "name": "Digital Skill Building",
+                            "description": "Digital Skill Building",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_subjectspecificlearning",
+                            "code": "subjectSpecificLearning",
+                            "name": "Subject Specific Learning",
+                            "description": "Subject Specific Learning",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_everydayskills",
+                            "code": "everydaySkills",
+                            "name": "Everyday Skills",
+                            "description": "Everyday Skills",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_podcasts",
+                            "code": "podcasts",
+                            "name": "Podcasts",
+                            "description": "Podcasts",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        },
+                        {
+                            "identifier": "pos-framework_subject_craftsanddesign",
+                            "code": "craftsAndDesign",
+                            "name": "Crafts & Design",
+                            "description": "Crafts & Design",
+                            "index": 1,
+                            "category": "subject",
+                            "status": "Live"
+                        }
+                    ],
+                    "name": "Subject",
+                    "description": "Course Subject",
+                    "index": 3,
+                    "status": "Live"
+                }
+            ],
+            "type": "K-12"
+        }
+    }
+}
