@@ -59,3 +59,15 @@ id_ecdsa
 .yarnrc.yml
 .envrc
 
+CourseGenerate/package-lock.json
+courseImport/package-lock.json
+sunbird_content_import-main/db-manage.sh
+sunbird_content_import-main/docker-compose.yml
+sunbird_content_import-main/deploy.sh
+sunbird_content_import-main/DEPLOYMENT.md
+sunbird_content_import-main/Dockerfile
+sunbird_content_import-main/Migration Master /b3.xlsx
+*.xlsx
+sunbird_content_import-main/package-lock.json
+sunbird_content_import-main/setup-ssh.sh
+sunbird_content_import-main/upload-to-server.sh

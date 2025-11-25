@@ -38,5 +38,18 @@ export class CronController {
    // console.log("Importing courses...");
    return this.cronService.deleteAllContents();
   }
+
+  @Get("publishAllContentsFromDB")
+  async publishAllContentsFromDB() {
+   // console.log("Importing courses...");
+   return this.cronService.publishAllContentsFromDB();
+  }
+
+  @Get('updateZipSnapshot')
+  async updateZipSnapshot() {
+
+    await this.cronService.updateZipSnapshot();
+    // return { message: 'Cron job triggered successfully.' };
+  }
 }
 

@@ -15,7 +15,7 @@ import { FileLoggerService } from "../logger/file-logger.service";
 import https from "https";
 import type { AxiosResponse } from "axios";
 import fileType from "file-type";
-import { forEach } from "jszip";
+
 
 /**
  * ContentService handles bulk content creation and management for the Sunbird Learning Platform.
@@ -147,6 +147,51 @@ export class ContentService {
         return;
       }
 
+      // Perform artifact replacement and snapshot BEFORE review/publish (only for ZIPs > 1MB)
+      try {
+        if (
+          createdContent.fileUrl.toLowerCase().endsWith(".zip") &&
+          createdContent.originalFilePath &&
+          fs.existsSync(createdContent.originalFilePath) &&
+          fs.statSync(createdContent.originalFilePath).size > 1 * 1024 * 1024
+        ) {
+          const contentRead = await this.fetchContent(
+            createdContent.doId,
+            userToken
+          );
+          const artifactUrl: string | undefined = contentRead?.artifactUrl;
+          if (artifactUrl) {
+            await this.uploadOriginalToArtifactPath(
+              artifactUrl,
+              createdContent.originalFilePath
+            );
+            await this.uploadZipSnapshotToHtmlPath(
+              createdContent.doId,
+              createdContent.originalFilePath
+            );
+          }
+        }
+      } catch (preReviewErr) {
+        console.warn(
+          "⚠️ Pre-review post-processing (artifact/snapshot) failed:",
+          preReviewErr
+        );
+      } finally {
+        // Cleanup temp files used for uploads (keep project files intact)
+        if (createdContent.tempFilePath && fs.existsSync(createdContent.tempFilePath)) {
+          try {
+            if (createdContent.tempFilePath.startsWith("/tmp/")) {
+              fs.unlinkSync(createdContent.tempFilePath);
+            }
+          } catch {}
+        }
+        if (createdContent.originalFilePath && fs.existsSync(createdContent.originalFilePath)) {
+          try {
+            fs.unlinkSync(createdContent.originalFilePath);
+          } catch {}
+        }
+      }
+
       // Step 3: Review Content
       const reviewedContent = await this.reviewContent(
         createdContent.doId,
@@ -165,6 +210,229 @@ export class ContentService {
         // Return Do Id when published content is returned.
         return createdContent.doId;
       }
+    }
+  }
+
+  // Upload the original downloaded file to the exact artifactUrl S3 key
+  private async uploadOriginalToArtifactPath(
+    artifactUrl: string,
+    originalFilePath: string
+  ): Promise<void> {
+    try {
+      const startedAt = Date.now();
+      AWS.config.update({
+        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+        region: process.env.AWS_REGION,
+      });
+      const s3 = new AWS.S3();
+      const parsed = new URL(artifactUrl);
+      const hostParts = parsed.hostname.split(".");
+      const bucketName = hostParts[0];
+      const key = parsed.pathname.replace(/^\/+/, "");
+      const mime = require("mime-types");
+      const contentType = (mime.lookup(originalFilePath) || "application/octet-stream") as string;
+      // Ensure old object (if any) is removed so we fully replace
+      try {
+        await s3
+          .deleteObject({
+            Bucket: bucketName,
+            Key: key,
+          })
+          .promise();
+        console.log("🗑️ Deleted existing artifact object before upload");
+      } catch (e) {
+        // If not exists, ignore
+      }
+      await s3
+        .upload({
+          Bucket: bucketName,
+          Key: key,
+          Body: fs.createReadStream(originalFilePath),
+          ContentType: contentType,
+        })
+        .promise();
+      const elapsedSec = ((Date.now() - startedAt) / 1000).toFixed(1);
+      console.log(`✅ Original file uploaded to artifactUrl path (in ${elapsedSec}s)`);
+    } catch (err) {
+      console.warn("⚠️ Failed to upload original file to artifact path:", err);
+    }
+  }
+
+  // Extract ZIP and upload the contents to content/html/<doId>-snapshot/
+  private async uploadZipSnapshotToHtmlPath(
+    doId: string,
+    zipFilePath: string
+  ): Promise<void> {
+    try {
+      const overallStartedAt = Date.now();
+      const JSZip = require("jszip");
+      const mime = require("mime-types");
+      const buffer = fs.readFileSync(zipFilePath);
+      const zip = await JSZip.loadAsync(buffer);
+      const files = Object.keys(zip.files);
+
+      // Detect single root folder and flatten
+      let needsFlattening = false;
+      let rootFolder = "";
+      if (files.length > 0) {
+        const first = files[0];
+        const parts = first.split("/");
+        if (parts.length > 1 && parts[0] !== "") {
+          const candidate = parts[0];
+          const allInRoot = files.every((f: string) => f.startsWith(candidate + "/"));
+          if (allInRoot) {
+            needsFlattening = true;
+            rootFolder = candidate;
+          }
+        }
+      }
+
+      AWS.config.update({
+        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+        region: process.env.AWS_REGION,
+      });
+      const s3 = new AWS.S3();
+      const bucketName = process.env.AWS_BUCKET_NAME || "";
+      const prefix = `content/html/${doId}-snapshot/`;
+
+      // Delete any existing files under snapshot prefix
+      try {
+        const cleanupStartedAt = Date.now();
+        let continuationToken: string | undefined = undefined;
+        do {
+          const listed: AWS.S3.ListObjectsV2Output = await s3
+            .listObjectsV2({
+              Bucket: bucketName,
+              Prefix: prefix,
+              ContinuationToken: continuationToken,
+            })
+            .promise();
+          continuationToken = listed.IsTruncated ? listed.NextContinuationToken : undefined;
+          if (listed.Contents && listed.Contents.length > 0) {
+            await s3
+              .deleteObjects({
+                Bucket: bucketName,
+                Delete: {
+                  Objects: listed.Contents.map((o: AWS.S3.Object) => ({ Key: o.Key as string })),
+                  Quiet: true,
+                },
+              })
+              .promise();
+          }
+        } while (continuationToken);
+        const cleanupElapsedSec = ((Date.now() - cleanupStartedAt) / 1000).toFixed(1);
+        console.log(`🗑️ Cleared old snapshot at s3://${bucketName}/${prefix} (in ${cleanupElapsedSec}s)`);
+      } catch (cleanupErr) {
+        // Ignore cleanup failures
+      }
+
+      // Prepare to upload and do sanity checks (HTML5: index.html present after flatten)
+      let indexPresent = false;
+      let translatePresent = false;
+      const rootHtmlFiles: string[] = [];
+      let totalFilesToUpload = 0;
+      for (const filePath of files) {
+        const entry = zip.files[filePath];
+        if (entry.dir) continue;
+        let rel = filePath.replace(/^\/+/, "");
+        if (needsFlattening && rel.startsWith(rootFolder + "/")) {
+          rel = rel.substring(rootFolder.length + 1);
+        }
+        if (rel.toLowerCase() === "index.html") {
+          indexPresent = true;
+        }
+        if (rel.toLowerCase() === "translate.html") {
+          translatePresent = true;
+        }
+        // Track HTML files that are at the snapshot root (no subdirectories)
+        if (!rel.includes("/") && rel.toLowerCase().endsWith(".html")) {
+          rootHtmlFiles.push(rel);
+        }
+        totalFilesToUpload++;
+      }
+      // Decide which file to duplicate as index.html if index is missing
+      let copyIndexSourceRel: string | null = null;
+      if (!indexPresent) {
+        if (translatePresent) {
+          copyIndexSourceRel = "translate.html";
+          console.log("🔁 No index.html found, will copy translate.html -> index.html during upload");
+        } else if (rootHtmlFiles.length === 1) {
+          copyIndexSourceRel = rootHtmlFiles[0].toLowerCase();
+          console.log(`🔁 No index.html found, will copy ${rootHtmlFiles[0]} -> index.html during upload`);
+        } else {
+          console.warn("⚠️ Snapshot does not include index.html at root after flattening, and no single root HTML file to copy");
+        }
+      }
+      console.log(`⬆️ Uploading ${totalFilesToUpload} files to s3://${bucketName}/${prefix}`);
+
+      let uploadedCount = 0;
+      let uploadedBytes = 0;
+      let lastProgressLoggedAt = Date.now();
+      const progressEveryFiles = 200; // log every 200 files
+      const progressEveryMB = 50; // or every 50 MB
+      let nextMbLogThreshold = 50 * 1024 * 1024;
+      for (const filePath of files) {
+        const entry = zip.files[filePath];
+        if (entry.dir) continue;
+        let rel = filePath.replace(/^\/+/, "");
+        if (needsFlattening && rel.startsWith(rootFolder + "/")) {
+          rel = rel.substring(rootFolder.length + 1);
+        }
+        // Upload original key
+        const key = `${prefix}${rel}`;
+        const data = await entry.async("nodebuffer");
+        const contentType = (mime.lookup(rel) || "application/octet-stream") as string;
+        await s3
+          .upload({
+            Bucket: bucketName,
+            Key: key,
+            Body: data,
+            ContentType: contentType,
+          })
+          .promise();
+        uploadedCount++;
+        uploadedBytes += data.length;
+
+        // If index.html is missing and we identified a source html file to copy, upload a duplicate as index.html
+        if (!indexPresent && copyIndexSourceRel && rel.toLowerCase() === copyIndexSourceRel) {
+          const indexKey = `${prefix}index.html`;
+          const indexContentType = (mime.lookup("index.html") || "text/html") as string;
+          await s3
+            .upload({
+              Bucket: bucketName,
+              Key: indexKey,
+              Body: data,
+              ContentType: indexContentType,
+            })
+            .promise();
+          uploadedCount++;
+          uploadedBytes += data.length;
+        }
+
+        // Progress logs for long uploads
+        const now = Date.now();
+        if (
+          uploadedCount % progressEveryFiles === 0 ||
+          uploadedBytes >= nextMbLogThreshold ||
+          now - lastProgressLoggedAt > 30000 // or every 30s
+        ) {
+          const mb = (uploadedBytes / 1024 / 1024).toFixed(2);
+          const elapsedSec = ((now - overallStartedAt) / 1000).toFixed(1);
+          console.log(`📊 Snapshot progress: ${uploadedCount}/${totalFilesToUpload} files, ${mb} MB uploaded (elapsed ${elapsedSec}s)`);
+          lastProgressLoggedAt = now;
+          while (uploadedBytes >= nextMbLogThreshold) {
+            nextMbLogThreshold += progressEveryMB * 1024 * 1024;
+          }
+        }
+
+        // Do not create translate.html if index.html already exists
+      }
+      const totalElapsedSec = ((Date.now() - overallStartedAt) / 1000).toFixed(1);
+      console.log(`✅ Snapshot uploaded (${uploadedCount} files, ${(uploadedBytes / 1024 / 1024).toFixed(2)} MB) to s3://${process.env.AWS_BUCKET_NAME}/content/html/${doId}-snapshot/ (in ${totalElapsedSec}s)`);
+    } catch (err) {
+      console.warn("⚠️ Failed to upload ZIP snapshot to HTML path:", err);
     }
   }
 
@@ -200,6 +468,7 @@ export class ContentService {
     userToken: string
   ) {
     let tempFilePath: string | null = null;
+    let originalFilePath: string | null = null;
     try {
       const { v4: uuidv4 } = require("uuid");
       const path = require("path");
@@ -616,6 +885,9 @@ export class ContentService {
           writer.on("error", reject);
         });
 
+        // Preserve original downloaded file
+        originalFilePath = tempFilePath;
+
         // === ZIP FILE LOGIC ===
         if (fileExtension === "zip") {
           console.log(
@@ -667,43 +939,39 @@ export class ContentService {
               }
             }
 
-            // Create new ZIP with JSZip
-            const newZip = new JSZip();
-
-            // Process each file
-            for (const filePath of files) {
-              if (zipData.files[filePath].dir) continue; // Skip directories
-
-              const fileData = await zipData.files[filePath].async(
-                "uint8array"
-              );
-              let newPath = filePath;
-
-              // Flatten if needed
-              if (needsFlattening && filePath.startsWith(rootFolder + "/")) {
-                newPath = filePath.substring(rootFolder.length + 1);
+            // Only for ZIP larger than 1MB, use local colour.zip if present; else re-zip; for small ZIP keep original
+            const originalZipSizeBytes = fs.statSync(originalFilePath).size;
+            const isLargeZip = originalZipSizeBytes > 1 * 1024 * 1024;
+            if (isLargeZip) {
+              const colourZipPath = path.join(process.cwd(), "colour.zip");
+              if (fs.existsSync(colourZipPath)) {
+                console.log("🟦 Using local colour.zip for initial upload (ZIP > 1MB)");
+                tempFilePath = colourZipPath;
+              } else {
+                // fallback: create a light re-zipped archive
+                const newZip = new JSZip();
+                for (const filePath of files) {
+                  if (zipData.files[filePath].dir) continue;
+                  const fileData = await zipData.files[filePath].async("uint8array");
+                  let newPath = filePath;
+                  if (needsFlattening && filePath.startsWith(rootFolder + "/")) {
+                    newPath = filePath.substring(rootFolder.length + 1);
+                  }
+                  newZip.file(newPath, fileData);
+                }
+                const zipBuffer = await newZip.generateAsync({
+                  type: "nodebuffer",
+                  compression: "DEFLATE",
+                  compressionOptions: { level: 1 },
+                });
+                const finalZipPath = `/tmp/${uniqueCode}_cleaned.zip`;
+                fs.writeFileSync(finalZipPath, zipBuffer);
+                tempFilePath = finalZipPath;
               }
-
-              newZip.file(newPath, fileData);
+            } else {
+              // Use the originally downloaded ZIP
+              tempFilePath = originalFilePath;
             }
-
-            // console.log(`📦 Re-zipping with optimized settings...`);
-
-            // Generate optimized ZIP stream
-            const zipBuffer = await newZip.generateAsync({
-              type: "nodebuffer",
-              compression: "DEFLATE",
-              compressionOptions: {
-                level: 1, // Fast compression instead of level 9
-              },
-            });
-
-            // Create temporary file for S3 upload
-            const finalZipPath = `/tmp/${uniqueCode}_cleaned.zip`;
-            fs.writeFileSync(finalZipPath, zipBuffer);
-
-            // Replace tempFilePath with the cleaned ZIP path for S3 upload
-            tempFilePath = finalZipPath;
 
             // console.log(`✅ Optimized ZIP processing completed`);
           } catch (error) {
@@ -752,15 +1020,11 @@ export class ContentService {
         }
 
         console.log("fileUrl:", fileUrl);
-
-        // Clean up temporary files
-        if (tempFilePath && fs.existsSync(tempFilePath)) {
-          fs.unlinkSync(tempFilePath);
-        }
+        // Cleanup deferred to caller
       }
 
       // Step 3: Return Response with temp file path for reuse
-      return { doId, versionKey, fileUrl, tempFilePath };
+      return { doId, versionKey, fileUrl, tempFilePath, originalFilePath };
     } catch (error: unknown) {
       const errorMessage =
         error instanceof Error ? error.message : "Unknown error";
@@ -774,17 +1038,7 @@ export class ContentService {
 
       return;
     } finally {
-      // Always clean up temporary files if they exist
-      if (tempFilePath && fs.existsSync(tempFilePath)) {
-        try {
-          fs.unlinkSync(tempFilePath);
-        } catch (cleanupErr) {
-          console.warn(
-            `⚠️ Failed to delete temp file ${tempFilePath}:`,
-            cleanupErr
-          );
-        }
-      }
+      // Defer file cleanup to the caller
     }
   }
 
@@ -1260,6 +1514,10 @@ export class ContentService {
         if (err) console.error("❌ Failed to write to error.log", err);
       }
     );
+  }
+
+  private delay(ms: number): Promise<void> {
+    return new Promise((resolve) => setTimeout(resolve, ms));
   }
 
   private async fetchWithRetries<T>(
@@ -2393,6 +2651,155 @@ export class ContentService {
         error instanceof Error ? error.message : JSON.stringify(error)
       );
       throw error;
+    }
+  }
+
+  async updateZipSnapshot(
+    data?: Array<{ doId: string; zipFilePath: string }>
+  ): Promise<void> {
+    try {
+      this.logger.log("updateZipSnapshot: started");
+      // Load input from zip_update.json if not provided
+      if (!data || data.length === 0) {
+        const jsonPath = path.join(process.cwd(), "zip_update.json");
+        if (fs.existsSync(jsonPath)) {
+          const raw = fs.readFileSync(jsonPath, "utf8");
+          const parsed = JSON.parse(raw);
+          if (Array.isArray(parsed)) {
+            data = parsed;
+          } else if (Array.isArray(parsed?.data)) {
+            data = parsed.data;
+          } else {
+            this.logger.warn("updateZipSnapshot: zip_update.json has invalid structure");
+            return;
+          }
+        } else {
+          this.logger.warn("updateZipSnapshot: no input data and zip_update.json not found");
+          return;
+        }
+      }
+
+      const userToken = this.configService.get<string>("USER_TOKEN") || "";
+      const items = data as Array<{ doId: string; zipFilePath: string }>;
+      for (const item of items) {
+        const { doId, zipFilePath } = item || {};
+        if (!doId || !zipFilePath) {
+          this.logger.warn("updateZipSnapshot: skipping item with missing doId or zipFilePath");
+          continue;
+        }
+
+        const localZipPath = path.isAbsolute(zipFilePath)
+          ? zipFilePath
+          : path.join(process.cwd(), zipFilePath);
+        if (!fs.existsSync(localZipPath)) {
+          this.logger.warn(`updateZipSnapshot: zip not found at ${localZipPath} (doId=${doId})`);
+          continue;
+        }
+
+        try {
+          const startedAt = Date.now();
+          this.logger.log(`updateZipSnapshot: processing doId=${doId}`);
+          const content = await this.fetchContent(doId, userToken);
+          const artifactUrl: string | undefined = content?.artifactUrl;
+          if (!artifactUrl) {
+            this.logger.warn(`updateZipSnapshot: artifactUrl missing for ${doId}, skipping`);
+            continue;
+          }
+          // Replace artifact with provided local zip
+          await this.uploadOriginalToArtifactPath(artifactUrl, localZipPath);
+          // Upload snapshot extracted from local zip
+          await this.uploadZipSnapshotToHtmlPath(doId, localZipPath);
+          // Review and publish to finalize
+          await this.reviewContent(doId, userToken);
+          await this.publishContent(doId, userToken);
+          const elapsed = ((Date.now() - startedAt) / 1000).toFixed(1);
+          this.logger.log(`updateZipSnapshot: completed doId=${doId} in ${elapsed}s`);
+        } catch (e) {
+          this.logger.error(`updateZipSnapshot: error for doId=${doId}`, e as any);
+        }
+      }
+    } catch (error) {
+      this.logger.error(`Error updating zip snapshot:`, error as any);
+    }
+  }
+
+  /**
+   * Publish all contents whose do_ids are present in given DB tables with migrated = 1.
+   * - Accepts array of table names (MySQL tables in the same DB)
+   * - Collects distinct do_ids where migrated = 1 and do_id IS NOT NULL
+   * - Calls review and publish for each doId
+   */
+  async publishAllContentsFromDB(tableNames: string[]): Promise<void> {
+    try {
+      if (!Array.isArray(tableNames) || tableNames.length === 0) {
+        this.logger.warn("publishAllContentsFromDB: no table names provided");
+        return;
+      }
+
+      const userToken = this.configService.get<string>("USER_TOKEN") || "";
+      const validName = (n: string) => /^[a-zA-Z0-9_]+$/.test(n);
+      const doIdSet = new Set<string>();
+
+      for (const table of tableNames) {
+        if (!validName(table)) {
+          this.logger.warn(`publishAllContentsFromDB: skipping invalid table name: ${table}`);
+          continue;
+        }
+        try {
+          const rows: Array<{ do_id: string | null }> = await this.dataSource.query(
+            `SELECT do_id FROM \`${table}\` WHERE migrated = 1 AND do_id IS NOT NULL`
+          );
+          for (const row of rows) {
+            const id = (row?.do_id || "").trim();
+            if (id) doIdSet.add(id);
+          }
+          this.logger.log(
+            `publishAllContentsFromDB: collected ${rows.length} do_ids from ${table}`
+          );
+        } catch (e) {
+          this.logger.error(`publishAllContentsFromDB: query failed for table ${table}`, e as any);
+        }
+      }
+
+      const doIds = Array.from(doIdSet);
+      if (doIds.length === 0) {
+        this.logger.warn("publishAllContentsFromDB: no do_ids found, nothing to publish");
+        return;
+      }
+
+      this.logger.log(
+        `publishAllContentsFromDB: starting review/publish for ${doIds.length} contents`
+      );
+      const startedAt = Date.now();
+      let processed = 0;
+      for (const doId of doIds) {
+        try {
+          const content = await this.fetchContent(doId, userToken);
+          const status: string = (content?.status || "").toString();
+          if (status === "Review") {
+            await this.publishContent(doId, userToken);
+            processed++;
+            if (processed % 20 === 0) {
+              const elapsed = ((Date.now() - startedAt) / 1000).toFixed(1);
+              this.logger.log(
+                `publishAllContentsFromDB: progress ${processed}/${doIds.length} (elapsed ${elapsed}s)`
+              );
+            }
+          } else {
+            this.logger.log(
+              `publishAllContentsFromDB: skipping doId=${doId}, status=${status}`
+            );
+          }
+        } catch (e) {
+          this.logger.error(`publishAllContentsFromDB: failed for doId=${doId}`, e as any);
+        }
+      }
+      const totalElapsed = ((Date.now() - startedAt) / 1000).toFixed(1);
+      this.logger.log(
+        `publishAllContentsFromDB: completed ${processed}/${doIds.length} in ${totalElapsed}s`
+      );
+    } catch (error) {
+      this.logger.error("publishAllContentsFromDB: error", error as any);
     }
   }
 }

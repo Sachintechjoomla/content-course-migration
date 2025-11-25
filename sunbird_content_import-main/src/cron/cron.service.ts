@@ -268,7 +268,7 @@ export class CronService {
     console.log(fileUrl);
   }
 
-  async processRecords(limit: number = 21): Promise<void> {
+  async processRecords(limit: number = 121): Promise<void> {
     this.logger.log("Cron job started: Fetching records to process...");
     console.log("DEBUG: Cron method triggered");
 
@@ -310,7 +310,7 @@ export class CronService {
     const records = await this.contentRepository
       .createQueryBuilder("c")
       .where("c.migrated IN (:...migrated)", { migrated: [0, 2] })
-      // .andWhere("c.id = :id", { id: 74 })
+      // .andWhere("c.id = :id", { id: 1 })
       .take(limit)
       .getMany();
 
@@ -926,6 +926,35 @@ export class CronService {
     } catch (error: any) {
       console.error(`Error in deleteAllcontent: ${error.message}`);
       throw error;
+    }
+  }
+
+  async updateZipSnapshot(): Promise<any> {
+    try {
+      this.logger.log("Cron job started: updateZipSnapshot");
+      await this.contentService.updateZipSnapshot();
+    } catch (error) {
+      this.logger.error(`Error updating zip snapshot:`, error);
+    }
+  }
+
+  async publishAllContentsFromDB(): Promise<any> {
+    try {
+      this.logger.log("Cron job started: publishAllContentsFromDB");
+      await this.contentService.publishAllContentsFromDB([
+'english',
+'gujrati',
+'hindi',
+'kannada',
+'marathi',
+'odia',
+'panjabi',
+'tamil',
+'telugu',
+        'bengali'
+      ]);
+    } catch (error) {
+      this.logger.error(`Error publishing all contents from DB:`, error);
     }
   }
 }
