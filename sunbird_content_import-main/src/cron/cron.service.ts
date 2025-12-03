@@ -942,15 +942,15 @@ export class CronService {
     try {
       this.logger.log("Cron job started: publishAllContentsFromDB");
       await this.contentService.publishAllContentsFromDB([
-'english',
-'gujrati',
-'hindi',
-'kannada',
-'marathi',
-'odia',
-'panjabi',
-'tamil',
-'telugu',
+        'english',
+        'gujrati',
+        'hindi',
+        'kannada',
+        'marathi',
+        'odia',
+        'panjabi',
+        'tamil',
+        'telugu',
         'bengali'
       ]);
     } catch (error) {

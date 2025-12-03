@@ -13,7 +13,7 @@ import { DataSource } from "typeorm";
 import { InjectDataSource } from "@nestjs/typeorm";
 import { FileLoggerService } from "../logger/file-logger.service";
 import https from "https";
-import type { AxiosResponse } from "axios";
+import { AxiosResponse } from "axios";
 import fileType from "file-type";
 
 @Injectable()
@@ -195,6 +195,7 @@ export class ContentService {
         subject: toArray(SUBJECTS),
         // keywords: toArray(KEYWORDS),
         contentLanguage: contentLanguage,
+        englishName: record.cont_engtitle || "",
         isContentMigrated: 1,
         oldSystemContentId: old_system_content_id,
         contentType: "Resource",
